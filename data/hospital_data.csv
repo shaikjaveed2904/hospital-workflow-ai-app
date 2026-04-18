@@ -1,0 +1,1001 @@
+patient_id,appointment_date,appointment_time,department,doctor_name,doctor_specialty,booked_slot,actual_arrival_time,wait_time_minutes,consultation_duration,no_show,status,patient_priority,hospital_unit
+P100000,8/26/2024,11:15,Cardiology,Dr. Bob Johnson,Cardiologist,8/26/2024 11:15,8/26/2024 11:24,0,21,0,completed,normal,Unit C
+P100001,3/7/2024,16:45,Pediatrics,Dr. Grace Lewis,Pediatrician,3/7/2024 16:45,3/7/2024 16:56,20,22,1,no_show,normal,Unit B
+P100002,3/1/2024,14:30,Neurology,Dr. Daniel Kim,Neurologist,3/1/2024 14:30,3/1/2024 14:42,19,18,0,completed,normal,Unit B
+P100003,12/2/2024,14:15,General Medicine,Dr. Jason Lee,General Practitioner,12/2/2024 14:15,12/2/2024 14:10,9,26,0,completed,normal,Unit C
+P100004,12/9/2024,11:00,Pediatrics,Dr. Henry Patel,Pediatrician,12/9/2024 11:00,12/9/2024 10:49,29,21,0,completed,normal,Unit C
+P100005,10/30/2024,9:45,Pediatrics,Dr. Grace Lewis,Pediatrician,10/30/2024 9:45,10/30/2024 9:47,23,18,0,completed,normal,Unit A
+P100006,6/9/2024,14:30,Neurology,Dr. Carol Lee,Neurologist,6/9/2024 14:30,6/9/2024 14:14,16,23,0,completed,normal,Unit B
+P100007,12/24/2024,9:15,Oncology,Dr. Emma Clark,Oncologist,12/24/2024 9:15,12/24/2024 9:03,4,22,0,completed,normal,Unit B
+P100008,12/29/2024,13:15,Pediatrics,Dr. Henry Patel,Pediatrician,12/29/2024 13:15,12/29/2024 13:19,11,18,0,completed,normal,Unit B
+P100009,12/8/2024,9:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,12/8/2024 9:15,12/8/2024 9:21,14,20,0,completed,normal,Unit C
+P100010,5/13/2024,16:15,Oncology,Dr. Frank Wright,Oncologist,5/13/2024 16:15,5/13/2024 16:12,30,24,0,completed,normal,Unit C
+P100011,2/16/2024,12:30,Oncology,Dr. Frank Wright,Oncologist,2/16/2024 12:30,2/16/2024 12:34,23,13,0,completed,normal,Unit A
+P100012,2/21/2024,13:00,Neurology,Dr. Daniel Kim,Neurologist,2/21/2024 13:00,2/21/2024 12:50,22,27,0,completed,normal,Unit B
+P100013,10/16/2024,9:15,Neurology,Dr. Daniel Kim,Neurologist,10/16/2024 9:15,10/16/2024 9:12,1,19,0,completed,normal,Unit C
+P100014,4/10/2024,12:30,Cardiology,Dr. Alice Smith,Cardiologist,4/10/2024 12:30,4/10/2024 12:34,7,21,0,completed,normal,Unit B
+P100015,5/12/2024,15:00,Neurology,Dr. Carol Lee,Neurologist,5/12/2024 15:00,5/12/2024 14:59,5,18,0,completed,normal,Unit C
+P100016,4/27/2024,8:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,4/27/2024 8:30,4/27/2024 8:19,6,31,0,completed,normal,Unit C
+P100017,8/19/2024,10:30,Neurology,Dr. Daniel Kim,Neurologist,8/19/2024 10:30,8/19/2024 10:30,9,18,0,cancelled,urgent,Unit B
+P100018,11/4/2024,16:00,Cardiology,Dr. Bob Johnson,Cardiologist,11/4/2024 16:00,11/4/2024 16:02,30,18,0,completed,normal,Unit C
+P100019,1/2/2024,16:45,Oncology,Dr. Emma Clark,Oncologist,1/2/2024 16:45,1/2/2024 17:01,33,18,0,completed,normal,Unit A
+P100020,12/30/2024,14:15,Neurology,Dr. Carol Lee,Neurologist,12/30/2024 14:15,12/30/2024 14:15,17,27,0,completed,normal,Unit C
+P100021,12/4/2024,14:45,Neurology,Dr. Daniel Kim,Neurologist,12/4/2024 14:45,12/4/2024 14:37,16,13,0,completed,urgent,Unit B
+P100022,12/21/2024,10:00,Cardiology,Dr. Alice Smith,Cardiologist,12/21/2024 10:00,12/21/2024 10:05,29,17,1,no_show,normal,Unit B
+P100023,11/2/2024,8:30,Cardiology,Dr. Bob Johnson,Cardiologist,11/2/2024 8:30,11/2/2024 8:32,43,16,0,completed,normal,Unit A
+P100024,8/30/2024,8:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,8/30/2024 8:15,8/30/2024 8:09,0,15,0,completed,normal,Unit C
+P100025,12/4/2024,11:00,Cardiology,Dr. Alice Smith,Cardiologist,12/4/2024 11:00,12/4/2024 10:43,0,14,0,completed,normal,Unit B
+P100026,6/22/2024,13:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,6/22/2024 13:15,6/22/2024 13:32,7,24,0,completed,normal,Unit A
+P100027,7/16/2024,8:30,Oncology,Dr. Emma Clark,Oncologist,7/16/2024 8:30,7/16/2024 8:32,10,25,0,completed,normal,Unit A
+P100028,10/16/2024,15:30,General Medicine,Dr. Jason Lee,General Practitioner,10/16/2024 15:30,10/16/2024 15:30,38,22,1,no_show,normal,Unit A
+P100029,11/22/2024,8:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,11/22/2024 8:00,11/22/2024 8:02,20,25,0,cancelled,normal,Unit C
+P100030,8/17/2024,13:30,Pediatrics,Dr. Henry Patel,Pediatrician,8/17/2024 13:30,8/17/2024 13:29,17,27,0,completed,normal,Unit C
+P100031,1/23/2024,9:15,Neurology,Dr. Carol Lee,Neurologist,1/23/2024 9:15,1/23/2024 9:18,33,24,0,completed,normal,Unit B
+P100032,10/16/2024,16:30,Neurology,Dr. Carol Lee,Neurologist,10/16/2024 16:30,10/16/2024 16:47,28,29,0,completed,normal,Unit C
+P100033,1/27/2024,10:00,General Medicine,Dr. Jason Lee,General Practitioner,1/27/2024 10:00,1/27/2024 9:49,25,20,0,completed,normal,Unit C
+P100034,7/9/2024,16:30,Pediatrics,Dr. Grace Lewis,Pediatrician,7/9/2024 16:30,7/9/2024 16:19,10,23,0,cancelled,normal,Unit A
+P100035,1/19/2024,8:30,General Medicine,Dr. Jason Lee,General Practitioner,1/19/2024 8:30,1/19/2024 8:24,28,9,0,completed,normal,Unit B
+P100036,3/27/2024,13:00,Pediatrics,Dr. Grace Lewis,Pediatrician,3/27/2024 13:00,3/27/2024 13:05,0,22,0,completed,normal,Unit C
+P100037,9/26/2024,16:45,General Medicine,Dr. Irene Martinez,General Practitioner,9/26/2024 16:45,9/26/2024 16:47,7,19,0,cancelled,normal,Unit C
+P100038,2/16/2024,14:00,General Medicine,Dr. Irene Martinez,General Practitioner,2/16/2024 14:00,2/16/2024 13:52,23,20,0,completed,urgent,Unit B
+P100039,4/8/2024,15:45,Oncology,Dr. Emma Clark,Oncologist,4/8/2024 15:45,4/8/2024 15:25,33,21,0,completed,normal,Unit B
+P100040,4/25/2024,11:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/25/2024 11:00,4/25/2024 11:05,23,8,0,completed,normal,Unit A
+P100041,8/30/2024,16:00,Cardiology,Dr. Alice Smith,Cardiologist,8/30/2024 16:00,8/30/2024 16:01,25,23,0,completed,normal,Unit B
+P100042,1/6/2024,16:15,General Medicine,Dr. Irene Martinez,General Practitioner,1/6/2024 16:15,1/6/2024 16:13,14,10,0,completed,normal,Unit B
+P100043,9/1/2024,15:45,Neurology,Dr. Carol Lee,Neurologist,9/1/2024 15:45,9/1/2024 15:46,28,20,0,completed,normal,Unit C
+P100044,2/1/2024,15:15,Pediatrics,Dr. Henry Patel,Pediatrician,2/1/2024 15:15,2/1/2024 15:01,6,24,0,completed,normal,Unit A
+P100045,1/2/2024,8:00,Cardiology,Dr. Bob Johnson,Cardiologist,1/2/2024 8:00,1/2/2024 7:42,25,17,0,completed,normal,Unit C
+P100046,11/14/2024,13:15,Neurology,Dr. Daniel Kim,Neurologist,11/14/2024 13:15,11/14/2024 13:28,16,25,0,cancelled,normal,Unit A
+P100047,9/9/2024,11:45,Oncology,Dr. Frank Wright,Oncologist,9/9/2024 11:45,9/9/2024 12:05,21,25,0,completed,normal,Unit B
+P100048,2/26/2024,11:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,2/26/2024 11:45,2/26/2024 11:25,5,19,0,completed,normal,Unit A
+P100049,8/3/2024,14:30,Oncology,Dr. Frank Wright,Oncologist,8/3/2024 14:30,8/3/2024 14:31,30,25,0,completed,normal,Unit B
+P100050,10/22/2024,14:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,10/22/2024 14:30,10/22/2024 14:35,20,16,0,completed,normal,Unit C
+P100051,1/21/2024,8:45,Cardiology,Dr. Alice Smith,Cardiologist,1/21/2024 8:45,1/21/2024 8:48,13,18,0,completed,normal,Unit C
+P100052,9/14/2024,15:15,Oncology,Dr. Frank Wright,Oncologist,9/14/2024 15:15,9/14/2024 15:23,8,5,0,cancelled,normal,Unit B
+P100053,10/8/2024,14:00,Oncology,Dr. Emma Clark,Oncologist,10/8/2024 14:00,10/8/2024 13:58,21,24,0,completed,normal,Unit C
+P100054,12/1/2024,16:45,Oncology,Dr. Frank Wright,Oncologist,12/1/2024 16:45,12/1/2024 16:37,29,27,0,completed,normal,Unit B
+P100055,6/24/2024,12:45,Cardiology,Dr. Alice Smith,Cardiologist,6/24/2024 12:45,6/24/2024 12:36,14,12,0,completed,normal,Unit A
+P100056,1/6/2024,8:15,General Medicine,Dr. Irene Martinez,General Practitioner,1/6/2024 8:15,1/6/2024 8:07,19,19,0,completed,normal,Unit A
+P100057,11/17/2024,11:45,General Medicine,Dr. Jason Lee,General Practitioner,11/17/2024 11:45,11/17/2024 11:50,25,20,0,completed,urgent,Unit C
+P100058,7/31/2024,12:45,Oncology,Dr. Emma Clark,Oncologist,7/31/2024 12:45,7/31/2024 12:37,20,20,0,completed,normal,Unit B
+P100059,8/9/2024,16:30,Neurology,Dr. Carol Lee,Neurologist,8/9/2024 16:30,8/9/2024 16:31,1,21,0,completed,urgent,Unit B
+P100060,11/16/2024,12:45,General Medicine,Dr. Jason Lee,General Practitioner,11/16/2024 12:45,11/16/2024 12:48,0,19,0,completed,normal,Unit C
+P100061,8/25/2024,12:45,General Medicine,Dr. Irene Martinez,General Practitioner,8/25/2024 12:45,8/25/2024 13:01,4,29,0,completed,normal,Unit B
+P100062,7/4/2024,14:45,Neurology,Dr. Carol Lee,Neurologist,7/4/2024 14:45,7/4/2024 14:53,25,23,0,completed,normal,Unit B
+P100063,4/7/2024,16:15,Pediatrics,Dr. Henry Patel,Pediatrician,4/7/2024 16:15,4/7/2024 16:19,0,15,0,completed,normal,Unit C
+P100064,9/27/2024,14:15,Cardiology,Dr. Bob Johnson,Cardiologist,9/27/2024 14:15,9/27/2024 14:17,12,18,1,no_show,normal,Unit C
+P100065,7/12/2024,8:45,Neurology,Dr. Daniel Kim,Neurologist,7/12/2024 8:45,7/12/2024 8:41,29,8,0,completed,normal,Unit B
+P100066,6/12/2024,11:00,General Medicine,Dr. Jason Lee,General Practitioner,6/12/2024 11:00,6/12/2024 10:59,5,23,0,completed,urgent,Unit A
+P100067,10/9/2024,11:30,Pediatrics,Dr. Grace Lewis,Pediatrician,10/9/2024 11:30,10/9/2024 11:36,0,18,0,completed,normal,Unit A
+P100068,5/8/2024,9:30,Cardiology,Dr. Alice Smith,Cardiologist,5/8/2024 9:30,5/8/2024 9:22,17,18,0,completed,normal,Unit A
+P100069,5/6/2024,16:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,5/6/2024 16:15,5/6/2024 15:59,21,7,0,completed,normal,Unit A
+P100070,4/19/2024,10:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/19/2024 10:00,4/19/2024 10:23,21,19,0,completed,urgent,Unit A
+P100071,4/3/2024,15:30,Pediatrics,Dr. Henry Patel,Pediatrician,4/3/2024 15:30,4/3/2024 15:26,11,27,0,cancelled,normal,Unit C
+P100072,2/20/2024,8:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,2/20/2024 8:45,2/20/2024 8:37,7,15,0,completed,normal,Unit C
+P100073,11/6/2024,9:30,Cardiology,Dr. Alice Smith,Cardiologist,11/6/2024 9:30,11/6/2024 9:40,5,23,0,completed,normal,Unit B
+P100074,5/31/2024,15:00,Neurology,Dr. Carol Lee,Neurologist,5/31/2024 15:00,5/31/2024 14:58,3,23,0,completed,normal,Unit A
+P100075,8/6/2024,10:45,Neurology,Dr. Carol Lee,Neurologist,8/6/2024 10:45,8/6/2024 10:36,31,24,1,no_show,normal,Unit B
+P100076,3/10/2024,9:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,3/10/2024 9:30,3/10/2024 9:29,18,24,1,no_show,normal,Unit A
+P100077,6/22/2024,10:00,General Medicine,Dr. Jason Lee,General Practitioner,6/22/2024 10:00,6/22/2024 9:50,0,25,0,completed,normal,Unit B
+P100078,4/16/2024,10:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,4/16/2024 10:00,4/16/2024 9:50,39,26,0,completed,normal,Unit C
+P100079,4/18/2024,9:30,Cardiology,Dr. Bob Johnson,Cardiologist,4/18/2024 9:30,4/18/2024 9:37,21,11,1,no_show,normal,Unit B
+P100080,11/4/2024,14:15,Pediatrics,Dr. Henry Patel,Pediatrician,11/4/2024 14:15,11/4/2024 14:28,24,20,0,completed,normal,Unit C
+P100081,2/14/2024,16:15,General Medicine,Dr. Jason Lee,General Practitioner,2/14/2024 16:15,2/14/2024 16:15,35,20,0,completed,normal,Unit A
+P100082,3/7/2024,10:30,Cardiology,Dr. Bob Johnson,Cardiologist,3/7/2024 10:30,3/7/2024 10:18,21,11,1,no_show,normal,Unit A
+P100083,11/5/2024,15:45,Cardiology,Dr. Alice Smith,Cardiologist,11/5/2024 15:45,11/5/2024 15:37,4,22,0,completed,normal,Unit A
+P100084,2/24/2024,11:45,General Medicine,Dr. Jason Lee,General Practitioner,2/24/2024 11:45,2/24/2024 11:43,13,17,0,completed,normal,Unit B
+P100085,6/20/2024,9:15,Cardiology,Dr. Bob Johnson,Cardiologist,6/20/2024 9:15,6/20/2024 9:11,32,22,0,completed,normal,Unit C
+P100086,8/23/2024,11:15,Pediatrics,Dr. Henry Patel,Pediatrician,8/23/2024 11:15,8/23/2024 11:27,0,28,0,cancelled,urgent,Unit B
+P100087,7/2/2024,8:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/2/2024 8:00,7/2/2024 8:18,13,20,0,completed,normal,Unit A
+P100088,5/7/2024,13:30,Pediatrics,Dr. Grace Lewis,Pediatrician,5/7/2024 13:30,5/7/2024 13:23,35,18,0,completed,normal,Unit B
+P100089,5/1/2024,9:15,General Medicine,Dr. Irene Martinez,General Practitioner,5/1/2024 9:15,5/1/2024 8:56,22,13,0,completed,normal,Unit C
+P100090,12/22/2024,9:15,Oncology,Dr. Emma Clark,Oncologist,12/22/2024 9:15,12/22/2024 9:10,15,15,0,completed,normal,Unit B
+P100091,3/26/2024,10:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,3/26/2024 10:00,3/26/2024 9:59,16,25,0,cancelled,normal,Unit A
+P100092,12/9/2024,10:00,Oncology,Dr. Emma Clark,Oncologist,12/9/2024 10:00,12/9/2024 9:35,0,17,0,completed,normal,Unit B
+P100093,5/16/2024,13:30,Cardiology,Dr. Bob Johnson,Cardiologist,5/16/2024 13:30,5/16/2024 13:34,0,21,0,completed,urgent,Unit C
+P100094,3/26/2024,16:30,Oncology,Dr. Emma Clark,Oncologist,3/26/2024 16:30,3/26/2024 16:30,4,22,0,completed,normal,Unit A
+P100095,7/28/2024,15:30,Cardiology,Dr. Bob Johnson,Cardiologist,7/28/2024 15:30,7/28/2024 15:35,29,18,0,completed,normal,Unit B
+P100096,4/13/2024,12:15,Neurology,Dr. Daniel Kim,Neurologist,4/13/2024 12:15,4/13/2024 12:19,17,20,0,completed,urgent,Unit B
+P100097,5/15/2024,12:45,Cardiology,Dr. Alice Smith,Cardiologist,5/15/2024 12:45,5/15/2024 12:45,32,21,0,completed,normal,Unit A
+P100098,7/11/2024,12:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,7/11/2024 12:30,7/11/2024 12:01,26,11,0,cancelled,normal,Unit A
+P100099,12/6/2024,11:00,Pediatrics,Dr. Grace Lewis,Pediatrician,12/6/2024 11:00,12/6/2024 11:22,21,28,0,completed,normal,Unit C
+P100100,7/20/2024,16:15,General Medicine,Dr. Irene Martinez,General Practitioner,7/20/2024 16:15,7/20/2024 16:08,25,19,0,completed,urgent,Unit A
+P100101,5/31/2024,14:30,Pediatrics,Dr. Grace Lewis,Pediatrician,5/31/2024 14:30,5/31/2024 14:26,1,22,0,completed,normal,Unit B
+P100102,8/1/2024,8:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,8/1/2024 8:45,8/1/2024 8:48,13,24,0,completed,normal,Unit B
+P100103,11/22/2024,13:00,Oncology,Dr. Emma Clark,Oncologist,11/22/2024 13:00,11/22/2024 13:01,22,20,0,completed,normal,Unit C
+P100104,10/28/2024,8:15,Neurology,Dr. Carol Lee,Neurologist,10/28/2024 8:15,10/28/2024 8:12,23,14,0,completed,urgent,Unit C
+P100105,11/29/2024,14:00,General Medicine,Dr. Irene Martinez,General Practitioner,11/29/2024 14:00,11/29/2024 13:58,16,22,0,completed,normal,Unit A
+P100106,10/7/2024,16:30,Pediatrics,Dr. Henry Patel,Pediatrician,10/7/2024 16:30,10/7/2024 16:30,15,26,0,completed,normal,Unit B
+P100107,9/12/2024,15:45,Pediatrics,Dr. Grace Lewis,Pediatrician,9/12/2024 15:45,9/12/2024 15:40,25,15,0,completed,normal,Unit B
+P100108,10/22/2024,10:15,General Medicine,Dr. Irene Martinez,General Practitioner,10/22/2024 10:15,10/22/2024 10:20,6,14,0,completed,normal,Unit C
+P100109,9/12/2024,10:30,Pediatrics,Dr. Grace Lewis,Pediatrician,9/12/2024 10:30,9/12/2024 10:34,17,19,0,completed,urgent,Unit B
+P100110,5/13/2024,8:00,Pediatrics,Dr. Grace Lewis,Pediatrician,5/13/2024 8:00,5/13/2024 8:04,30,19,0,completed,urgent,Unit B
+P100111,12/11/2024,9:00,Neurology,Dr. Carol Lee,Neurologist,12/11/2024 9:00,12/11/2024 9:28,10,21,0,completed,normal,Unit B
+P100112,3/22/2024,13:15,Oncology,Dr. Frank Wright,Oncologist,3/22/2024 13:15,3/22/2024 13:00,29,17,0,completed,normal,Unit A
+P100113,1/9/2024,16:00,Cardiology,Dr. Bob Johnson,Cardiologist,1/9/2024 16:00,1/9/2024 16:15,22,26,0,completed,normal,Unit B
+P100114,10/5/2024,11:15,Oncology,Dr. Frank Wright,Oncologist,10/5/2024 11:15,10/5/2024 11:02,10,24,0,completed,normal,Unit C
+P100115,4/7/2024,9:30,Neurology,Dr. Daniel Kim,Neurologist,4/7/2024 9:30,4/7/2024 9:41,12,15,0,completed,normal,Unit C
+P100116,2/6/2024,8:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,2/6/2024 8:15,2/6/2024 8:32,14,10,0,completed,normal,Unit B
+P100117,6/3/2024,11:30,Cardiology,Dr. Alice Smith,Cardiologist,6/3/2024 11:30,6/3/2024 11:30,21,20,0,completed,normal,Unit C
+P100118,8/24/2024,14:45,Pediatrics,Dr. Grace Lewis,Pediatrician,8/24/2024 14:45,8/24/2024 14:49,15,25,0,cancelled,normal,Unit A
+P100119,3/6/2024,12:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,3/6/2024 12:45,3/6/2024 12:45,42,13,0,completed,normal,Unit B
+P100120,1/3/2024,13:30,Neurology,Dr. Daniel Kim,Neurologist,1/3/2024 13:30,1/3/2024 13:54,43,18,0,completed,normal,Unit B
+P100121,4/4/2024,14:00,Neurology,Dr. Carol Lee,Neurologist,4/4/2024 14:00,4/4/2024 13:53,22,22,0,completed,normal,Unit C
+P100122,5/12/2024,8:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,5/12/2024 8:00,5/12/2024 7:57,19,19,0,completed,urgent,Unit A
+P100123,5/4/2024,9:15,Oncology,Dr. Emma Clark,Oncologist,5/4/2024 9:15,5/4/2024 9:03,6,15,0,completed,normal,Unit B
+P100124,8/25/2024,15:00,Cardiology,Dr. Alice Smith,Cardiologist,8/25/2024 15:00,8/25/2024 14:53,6,21,0,completed,urgent,Unit A
+P100125,9/12/2024,8:45,Cardiology,Dr. Bob Johnson,Cardiologist,9/12/2024 8:45,9/12/2024 8:27,0,27,0,completed,normal,Unit A
+P100126,6/10/2024,8:00,Cardiology,Dr. Bob Johnson,Cardiologist,6/10/2024 8:00,6/10/2024 8:07,10,23,0,cancelled,normal,Unit B
+P100127,4/15/2024,16:45,Pediatrics,Dr. Grace Lewis,Pediatrician,4/15/2024 16:45,4/15/2024 16:48,7,23,0,completed,urgent,Unit B
+P100128,7/29/2024,11:30,Cardiology,Dr. Bob Johnson,Cardiologist,7/29/2024 11:30,7/29/2024 11:40,22,11,0,completed,normal,Unit B
+P100129,5/20/2024,12:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,5/20/2024 12:15,5/20/2024 12:08,12,20,0,completed,normal,Unit B
+P100130,11/11/2024,9:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,11/11/2024 9:45,11/11/2024 9:45,15,23,0,completed,normal,Unit B
+P100131,11/5/2024,11:00,Pediatrics,Dr. Henry Patel,Pediatrician,11/5/2024 11:00,11/5/2024 10:54,20,28,0,completed,normal,Unit C
+P100132,3/28/2024,12:00,Cardiology,Dr. Bob Johnson,Cardiologist,3/28/2024 12:00,3/28/2024 12:00,24,20,0,completed,normal,Unit B
+P100133,6/7/2024,14:00,General Medicine,Dr. Irene Martinez,General Practitioner,6/7/2024 14:00,6/7/2024 14:02,33,17,0,completed,urgent,Unit B
+P100134,2/12/2024,8:15,Pediatrics,Dr. Grace Lewis,Pediatrician,2/12/2024 8:15,2/12/2024 8:22,14,15,0,completed,normal,Unit C
+P100135,11/17/2024,15:00,Cardiology,Dr. Alice Smith,Cardiologist,11/17/2024 15:00,11/17/2024 15:04,22,19,0,completed,normal,Unit C
+P100136,8/16/2024,14:00,Pediatrics,Dr. Grace Lewis,Pediatrician,8/16/2024 14:00,8/16/2024 13:45,24,21,0,completed,normal,Unit B
+P100137,3/8/2024,8:30,Oncology,Dr. Emma Clark,Oncologist,3/8/2024 8:30,3/8/2024 8:32,21,22,0,completed,normal,Unit C
+P100138,2/18/2024,11:15,Oncology,Dr. Emma Clark,Oncologist,2/18/2024 11:15,2/18/2024 11:10,7,22,0,completed,urgent,Unit A
+P100139,4/23/2024,16:45,Oncology,Dr. Emma Clark,Oncologist,4/23/2024 16:45,4/23/2024 16:48,35,18,0,completed,normal,Unit C
+P100140,12/27/2024,8:00,General Medicine,Dr. Irene Martinez,General Practitioner,12/27/2024 8:00,12/27/2024 8:08,12,14,0,completed,normal,Unit C
+P100141,2/16/2024,16:30,Pediatrics,Dr. Henry Patel,Pediatrician,2/16/2024 16:30,2/16/2024 16:14,16,23,0,completed,urgent,Unit C
+P100142,10/5/2024,12:15,Oncology,Dr. Frank Wright,Oncologist,10/5/2024 12:15,10/5/2024 12:14,0,26,0,completed,normal,Unit B
+P100143,10/31/2024,13:00,Neurology,Dr. Daniel Kim,Neurologist,10/31/2024 13:00,10/31/2024 13:04,0,23,0,cancelled,urgent,Unit A
+P100144,7/24/2024,8:15,Cardiology,Dr. Alice Smith,Cardiologist,7/24/2024 8:15,7/24/2024 8:11,10,21,0,completed,normal,Unit A
+P100145,11/11/2024,13:30,Pediatrics,Dr. Henry Patel,Pediatrician,11/11/2024 13:30,11/11/2024 13:42,38,31,0,cancelled,normal,Unit C
+P100146,2/15/2024,12:15,Neurology,Dr. Daniel Kim,Neurologist,2/15/2024 12:15,2/15/2024 12:29,23,24,0,completed,normal,Unit A
+P100147,10/5/2024,9:45,General Medicine,Dr. Jason Lee,General Practitioner,10/5/2024 9:45,10/5/2024 9:29,18,18,0,completed,normal,Unit A
+P100148,12/21/2024,8:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,12/21/2024 8:30,12/21/2024 8:44,14,32,0,completed,normal,Unit B
+P100149,10/19/2024,15:30,General Medicine,Dr. Irene Martinez,General Practitioner,10/19/2024 15:30,10/19/2024 15:27,32,31,0,completed,normal,Unit B
+P100150,12/5/2024,16:30,General Medicine,Dr. Jason Lee,General Practitioner,12/5/2024 16:30,12/5/2024 16:34,26,14,0,completed,normal,Unit B
+P100151,5/21/2024,9:15,Oncology,Dr. Emma Clark,Oncologist,5/21/2024 9:15,5/21/2024 8:53,13,30,0,completed,normal,Unit B
+P100152,4/29/2024,12:00,Oncology,Dr. Emma Clark,Oncologist,4/29/2024 12:00,4/29/2024 12:03,30,24,0,completed,normal,Unit C
+P100153,5/19/2024,9:30,Neurology,Dr. Carol Lee,Neurologist,5/19/2024 9:30,5/19/2024 9:20,12,22,0,completed,normal,Unit B
+P100154,4/11/2024,10:15,Oncology,Dr. Frank Wright,Oncologist,4/11/2024 10:15,4/11/2024 10:18,13,9,0,completed,normal,Unit B
+P100155,1/6/2024,11:30,Oncology,Dr. Emma Clark,Oncologist,1/6/2024 11:30,1/6/2024 11:11,0,16,0,completed,urgent,Unit A
+P100156,6/21/2024,13:15,Pediatrics,Dr. Henry Patel,Pediatrician,6/21/2024 13:15,6/21/2024 13:14,15,26,1,no_show,normal,Unit C
+P100157,6/28/2024,11:15,Oncology,Dr. Emma Clark,Oncologist,6/28/2024 11:15,6/28/2024 11:24,4,15,0,completed,urgent,Unit B
+P100158,2/13/2024,16:00,General Medicine,Dr. Jason Lee,General Practitioner,2/13/2024 16:00,2/13/2024 16:02,15,19,0,completed,normal,Unit A
+P100159,3/22/2024,9:30,Neurology,Dr. Carol Lee,Neurologist,3/22/2024 9:30,3/22/2024 9:25,12,17,0,completed,normal,Unit A
+P100160,12/2/2024,16:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,12/2/2024 16:45,12/2/2024 16:37,4,17,0,completed,normal,Unit A
+P100161,9/12/2024,10:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,9/12/2024 10:45,9/12/2024 10:48,16,14,1,no_show,normal,Unit C
+P100162,11/18/2024,8:00,Oncology,Dr. Frank Wright,Oncologist,11/18/2024 8:00,11/18/2024 7:59,21,19,0,completed,normal,Unit A
+P100163,7/24/2024,11:15,Neurology,Dr. Carol Lee,Neurologist,7/24/2024 11:15,7/24/2024 11:01,18,22,0,completed,urgent,Unit B
+P100164,12/28/2024,14:00,Cardiology,Dr. Alice Smith,Cardiologist,12/28/2024 14:00,12/28/2024 14:11,37,18,0,completed,normal,Unit C
+P100165,7/15/2024,15:30,Neurology,Dr. Daniel Kim,Neurologist,7/15/2024 15:30,7/15/2024 15:28,15,17,0,completed,normal,Unit A
+P100166,4/3/2024,8:00,Pediatrics,Dr. Grace Lewis,Pediatrician,4/3/2024 8:00,4/3/2024 8:00,23,21,0,completed,normal,Unit A
+P100167,11/9/2024,15:30,Pediatrics,Dr. Grace Lewis,Pediatrician,11/9/2024 15:30,11/9/2024 15:22,17,21,0,completed,normal,Unit A
+P100168,3/9/2024,12:45,Cardiology,Dr. Bob Johnson,Cardiologist,3/9/2024 12:45,3/9/2024 12:50,0,13,0,completed,normal,Unit C
+P100169,10/30/2024,15:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,10/30/2024 15:45,10/30/2024 15:57,22,19,0,completed,urgent,Unit C
+P100170,10/24/2024,16:00,Cardiology,Dr. Bob Johnson,Cardiologist,10/24/2024 16:00,10/24/2024 15:49,15,26,0,completed,urgent,Unit C
+P100171,7/7/2024,15:30,Cardiology,Dr. Alice Smith,Cardiologist,7/7/2024 15:30,7/7/2024 15:15,17,19,0,completed,normal,Unit B
+P100172,12/12/2024,8:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,12/12/2024 8:15,12/12/2024 8:05,10,17,0,completed,normal,Unit A
+P100173,5/31/2024,16:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,5/31/2024 16:45,5/31/2024 16:30,1,21,0,completed,normal,Unit A
+P100174,10/17/2024,10:15,General Medicine,Dr. Irene Martinez,General Practitioner,10/17/2024 10:15,10/17/2024 10:04,11,8,0,completed,normal,Unit A
+P100175,4/23/2024,9:00,Cardiology,Dr. Bob Johnson,Cardiologist,4/23/2024 9:00,4/23/2024 8:55,0,19,0,cancelled,urgent,Unit C
+P100176,10/29/2024,9:15,General Medicine,Dr. Irene Martinez,General Practitioner,10/29/2024 9:15,10/29/2024 9:25,1,30,0,completed,normal,Unit A
+P100177,2/1/2024,14:00,General Medicine,Dr. Jason Lee,General Practitioner,2/1/2024 14:00,2/1/2024 14:00,20,13,0,completed,normal,Unit B
+P100178,6/2/2024,15:45,Cardiology,Dr. Alice Smith,Cardiologist,6/2/2024 15:45,6/2/2024 15:42,32,13,0,completed,normal,Unit A
+P100179,3/16/2024,10:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,3/16/2024 10:45,3/16/2024 10:38,9,17,0,completed,normal,Unit A
+P100180,2/26/2024,13:45,Oncology,Dr. Frank Wright,Oncologist,2/26/2024 13:45,2/26/2024 13:34,10,15,0,completed,normal,Unit A
+P100181,4/30/2024,11:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/30/2024 11:45,4/30/2024 11:41,21,29,0,cancelled,normal,Unit C
+P100182,8/22/2024,13:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,8/22/2024 13:45,8/22/2024 13:53,22,15,0,completed,urgent,Unit C
+P100183,8/2/2024,9:15,Pediatrics,Dr. Grace Lewis,Pediatrician,8/2/2024 9:15,8/2/2024 8:59,16,18,0,completed,normal,Unit A
+P100184,2/8/2024,16:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,2/8/2024 16:45,2/8/2024 16:45,21,18,0,completed,urgent,Unit A
+P100185,2/27/2024,14:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,2/27/2024 14:15,2/27/2024 13:56,0,20,0,completed,urgent,Unit C
+P100186,2/9/2024,12:15,Cardiology,Dr. Bob Johnson,Cardiologist,2/9/2024 12:15,2/9/2024 11:54,30,23,0,completed,normal,Unit B
+P100187,6/12/2024,16:45,Neurology,Dr. Daniel Kim,Neurologist,6/12/2024 16:45,6/12/2024 16:52,16,22,0,completed,normal,Unit C
+P100188,9/4/2024,14:45,Oncology,Dr. Emma Clark,Oncologist,9/4/2024 14:45,9/4/2024 14:40,20,13,0,completed,normal,Unit B
+P100189,3/5/2024,8:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,3/5/2024 8:45,3/5/2024 8:39,18,23,1,no_show,normal,Unit A
+P100190,1/9/2024,15:00,General Medicine,Dr. Irene Martinez,General Practitioner,1/9/2024 15:00,1/9/2024 14:47,23,27,0,completed,normal,Unit A
+P100191,8/4/2024,16:15,Pediatrics,Dr. Grace Lewis,Pediatrician,8/4/2024 16:15,8/4/2024 16:17,25,17,0,cancelled,normal,Unit B
+P100192,12/2/2024,12:45,Pediatrics,Dr. Grace Lewis,Pediatrician,12/2/2024 12:45,12/2/2024 12:29,30,18,1,no_show,normal,Unit B
+P100193,3/31/2024,13:30,Pediatrics,Dr. Henry Patel,Pediatrician,3/31/2024 13:30,3/31/2024 13:15,27,16,0,completed,normal,Unit C
+P100194,7/28/2024,12:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,7/28/2024 12:00,7/28/2024 11:56,6,25,0,completed,urgent,Unit B
+P100195,7/4/2024,8:45,Pediatrics,Dr. Henry Patel,Pediatrician,7/4/2024 8:45,7/4/2024 8:41,21,23,0,completed,normal,Unit C
+P100196,6/24/2024,11:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,6/24/2024 11:30,6/24/2024 11:27,0,25,0,completed,normal,Unit B
+P100197,12/4/2024,16:00,Pediatrics,Dr. Grace Lewis,Pediatrician,12/4/2024 16:00,12/4/2024 16:08,23,18,0,completed,normal,Unit C
+P100198,8/27/2024,11:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,8/27/2024 11:00,8/27/2024 10:54,10,20,0,cancelled,normal,Unit C
+P100199,9/1/2024,14:45,Oncology,Dr. Emma Clark,Oncologist,9/1/2024 14:45,9/1/2024 14:37,49,21,0,completed,normal,Unit B
+P100200,1/13/2024,12:45,Neurology,Dr. Daniel Kim,Neurologist,1/13/2024 12:45,1/13/2024 12:43,13,17,0,completed,normal,Unit C
+P100201,7/16/2024,10:15,Cardiology,Dr. Alice Smith,Cardiologist,7/16/2024 10:15,7/16/2024 10:11,24,18,1,no_show,normal,Unit A
+P100202,4/29/2024,13:45,Neurology,Dr. Carol Lee,Neurologist,4/29/2024 13:45,4/29/2024 13:47,42,21,0,completed,normal,Unit A
+P100203,2/22/2024,8:30,Neurology,Dr. Daniel Kim,Neurologist,2/22/2024 8:30,2/22/2024 8:23,7,22,0,completed,normal,Unit B
+P100204,11/25/2024,10:45,Neurology,Dr. Daniel Kim,Neurologist,11/25/2024 10:45,11/25/2024 10:45,11,18,0,completed,normal,Unit C
+P100205,2/3/2024,16:00,General Medicine,Dr. Irene Martinez,General Practitioner,2/3/2024 16:00,2/3/2024 15:49,28,14,0,completed,normal,Unit A
+P100206,9/21/2024,16:45,Neurology,Dr. Carol Lee,Neurologist,9/21/2024 16:45,9/21/2024 16:45,9,22,0,cancelled,normal,Unit A
+P100207,9/22/2024,15:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,9/22/2024 15:00,9/22/2024 15:05,0,18,0,completed,normal,Unit B
+P100208,5/27/2024,11:30,Neurology,Dr. Carol Lee,Neurologist,5/27/2024 11:30,5/27/2024 11:26,35,21,0,completed,normal,Unit A
+P100209,8/26/2024,11:00,Oncology,Dr. Emma Clark,Oncologist,8/26/2024 11:00,8/26/2024 11:06,28,14,1,no_show,normal,Unit C
+P100210,12/13/2024,10:30,Pediatrics,Dr. Grace Lewis,Pediatrician,12/13/2024 10:30,12/13/2024 10:30,23,11,0,completed,urgent,Unit C
+P100211,7/11/2024,9:00,Oncology,Dr. Emma Clark,Oncologist,7/11/2024 9:00,7/11/2024 8:57,14,20,0,completed,normal,Unit B
+P100212,10/4/2024,10:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,10/4/2024 10:15,10/4/2024 10:15,2,20,0,completed,normal,Unit A
+P100213,3/23/2024,9:15,Pediatrics,Dr. Grace Lewis,Pediatrician,3/23/2024 9:15,3/23/2024 9:25,24,18,0,completed,normal,Unit C
+P100214,6/23/2024,16:00,General Medicine,Dr. Jason Lee,General Practitioner,6/23/2024 16:00,6/23/2024 16:00,24,16,0,cancelled,normal,Unit B
+P100215,4/10/2024,13:00,Cardiology,Dr. Alice Smith,Cardiologist,4/10/2024 13:00,4/10/2024 12:58,14,15,0,completed,normal,Unit A
+P100216,8/28/2024,12:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,8/28/2024 12:15,8/28/2024 12:19,18,21,0,completed,normal,Unit A
+P100217,1/19/2024,11:15,General Medicine,Dr. Jason Lee,General Practitioner,1/19/2024 11:15,1/19/2024 11:15,23,17,0,completed,normal,Unit A
+P100218,1/3/2024,15:15,General Medicine,Dr. Jason Lee,General Practitioner,1/3/2024 15:15,1/3/2024 15:08,12,24,0,completed,normal,Unit C
+P100219,12/9/2024,9:15,Cardiology,Dr. Bob Johnson,Cardiologist,12/9/2024 9:15,12/9/2024 9:08,9,25,0,completed,normal,Unit B
+P100220,5/18/2024,9:15,Cardiology,Dr. Bob Johnson,Cardiologist,5/18/2024 9:15,5/18/2024 9:17,22,16,0,completed,normal,Unit C
+P100221,9/20/2024,16:45,General Medicine,Dr. Irene Martinez,General Practitioner,9/20/2024 16:45,9/20/2024 16:58,23,26,0,cancelled,urgent,Unit B
+P100222,4/29/2024,11:30,Oncology,Dr. Emma Clark,Oncologist,4/29/2024 11:30,4/29/2024 11:28,4,20,0,completed,normal,Unit B
+P100223,2/7/2024,11:30,Cardiology,Dr. Bob Johnson,Cardiologist,2/7/2024 11:30,2/7/2024 11:12,7,20,0,completed,normal,Unit B
+P100224,6/19/2024,10:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,6/19/2024 10:45,6/19/2024 10:36,16,11,0,completed,normal,Unit A
+P100225,9/9/2024,12:45,Neurology,Dr. Carol Lee,Neurologist,9/9/2024 12:45,9/9/2024 12:45,30,19,0,completed,normal,Unit C
+P100226,12/27/2024,14:30,General Medicine,Dr. Irene Martinez,General Practitioner,12/27/2024 14:30,12/27/2024 14:42,45,20,0,completed,normal,Unit C
+P100227,8/6/2024,13:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,8/6/2024 13:45,8/6/2024 13:45,10,21,0,completed,urgent,Unit B
+P100228,6/27/2024,11:00,General Medicine,Dr. Jason Lee,General Practitioner,6/27/2024 11:00,6/27/2024 10:48,41,15,0,completed,normal,Unit A
+P100229,3/11/2024,16:00,Neurology,Dr. Carol Lee,Neurologist,3/11/2024 16:00,3/11/2024 15:47,25,17,0,completed,normal,Unit C
+P100230,12/26/2024,16:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,12/26/2024 16:15,12/26/2024 16:21,0,14,0,completed,normal,Unit C
+P100231,8/13/2024,16:45,Pediatrics,Dr. Henry Patel,Pediatrician,8/13/2024 16:45,8/13/2024 16:46,14,24,0,completed,normal,Unit A
+P100232,11/3/2024,8:45,Pediatrics,Dr. Henry Patel,Pediatrician,11/3/2024 8:45,11/3/2024 8:51,25,5,0,completed,normal,Unit A
+P100233,10/30/2024,13:00,Oncology,Dr. Emma Clark,Oncologist,10/30/2024 13:00,10/30/2024 13:11,24,22,0,completed,normal,Unit B
+P100234,4/28/2024,9:30,Pediatrics,Dr. Grace Lewis,Pediatrician,4/28/2024 9:30,4/28/2024 9:42,12,25,0,completed,normal,Unit A
+P100235,11/20/2024,8:30,Neurology,Dr. Carol Lee,Neurologist,11/20/2024 8:30,11/20/2024 8:03,11,18,0,completed,urgent,Unit C
+P100236,7/27/2024,15:45,Oncology,Dr. Emma Clark,Oncologist,7/27/2024 15:45,7/27/2024 15:58,17,22,0,completed,normal,Unit A
+P100237,4/6/2024,12:15,Oncology,Dr. Frank Wright,Oncologist,4/6/2024 12:15,4/6/2024 12:26,20,23,0,completed,normal,Unit A
+P100238,12/19/2024,15:00,Oncology,Dr. Frank Wright,Oncologist,12/19/2024 15:00,12/19/2024 15:02,15,20,0,completed,normal,Unit A
+P100239,11/6/2024,13:15,Cardiology,Dr. Alice Smith,Cardiologist,11/6/2024 13:15,11/6/2024 12:55,18,15,0,completed,normal,Unit C
+P100240,8/11/2024,13:00,Oncology,Dr. Frank Wright,Oncologist,8/11/2024 13:00,8/11/2024 13:00,24,9,0,completed,normal,Unit C
+P100241,7/15/2024,14:45,Pediatrics,Dr. Henry Patel,Pediatrician,7/15/2024 14:45,7/15/2024 14:42,27,27,0,completed,normal,Unit C
+P100242,10/5/2024,9:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,10/5/2024 9:00,10/5/2024 8:59,34,8,0,completed,normal,Unit A
+P100243,1/22/2024,15:45,Neurology,Dr. Daniel Kim,Neurologist,1/22/2024 15:45,1/22/2024 15:30,11,17,0,completed,normal,Unit C
+P100244,5/18/2024,16:15,General Medicine,Dr. Jason Lee,General Practitioner,5/18/2024 16:15,5/18/2024 15:59,19,14,1,no_show,normal,Unit A
+P100245,10/3/2024,13:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,10/3/2024 13:15,10/3/2024 13:24,25,16,0,completed,normal,Unit B
+P100246,7/21/2024,14:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/21/2024 14:15,7/21/2024 14:30,0,26,0,completed,normal,Unit A
+P100247,11/1/2024,15:00,General Medicine,Dr. Irene Martinez,General Practitioner,11/1/2024 15:00,11/1/2024 14:58,31,21,0,completed,urgent,Unit C
+P100248,12/25/2024,10:45,Oncology,Dr. Frank Wright,Oncologist,12/25/2024 10:45,12/25/2024 10:55,5,19,0,completed,normal,Unit A
+P100249,3/9/2024,11:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,3/9/2024 11:00,3/9/2024 10:59,21,15,0,completed,normal,Unit A
+P100250,8/16/2024,14:45,Neurology,Dr. Carol Lee,Neurologist,8/16/2024 14:45,8/16/2024 14:53,13,23,0,completed,normal,Unit C
+P100251,9/6/2024,11:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,9/6/2024 11:45,9/6/2024 11:26,3,19,0,completed,normal,Unit A
+P100252,5/25/2024,13:45,Oncology,Dr. Emma Clark,Oncologist,5/25/2024 13:45,5/25/2024 13:45,14,22,0,completed,normal,Unit B
+P100253,8/13/2024,13:30,Pediatrics,Dr. Henry Patel,Pediatrician,8/13/2024 13:30,8/13/2024 13:28,46,21,0,completed,normal,Unit C
+P100254,1/1/2024,11:30,Neurology,Dr. Daniel Kim,Neurologist,1/1/2024 11:30,1/1/2024 11:30,31,24,0,completed,normal,Unit B
+P100255,10/3/2024,16:15,Cardiology,Dr. Bob Johnson,Cardiologist,10/3/2024 16:15,10/3/2024 16:27,21,25,1,no_show,normal,Unit A
+P100256,2/12/2024,14:00,Pediatrics,Dr. Henry Patel,Pediatrician,2/12/2024 14:00,2/12/2024 14:09,16,29,0,cancelled,normal,Unit B
+P100257,8/21/2024,14:15,Pediatrics,Dr. Henry Patel,Pediatrician,8/21/2024 14:15,8/21/2024 14:20,0,29,0,cancelled,normal,Unit C
+P100258,5/9/2024,8:30,Neurology,Dr. Daniel Kim,Neurologist,5/9/2024 8:30,5/9/2024 8:30,12,17,0,completed,normal,Unit A
+P100259,10/11/2024,13:45,Pediatrics,Dr. Henry Patel,Pediatrician,10/11/2024 13:45,10/11/2024 13:37,8,23,0,cancelled,normal,Unit A
+P100260,7/9/2024,12:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/9/2024 12:30,7/9/2024 12:26,16,11,0,completed,urgent,Unit C
+P100261,7/11/2024,12:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/11/2024 12:15,7/11/2024 12:12,0,27,0,cancelled,urgent,Unit C
+P100262,5/8/2024,10:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,5/8/2024 10:30,5/8/2024 10:21,18,11,0,completed,normal,Unit C
+P100263,10/31/2024,15:30,Pediatrics,Dr. Grace Lewis,Pediatrician,10/31/2024 15:30,10/31/2024 15:33,7,26,0,completed,normal,Unit B
+P100264,12/28/2024,13:15,General Medicine,Dr. Jason Lee,General Practitioner,12/28/2024 13:15,12/28/2024 13:24,22,22,0,completed,urgent,Unit C
+P100265,3/26/2024,15:15,Neurology,Dr. Carol Lee,Neurologist,3/26/2024 15:15,3/26/2024 15:07,28,10,0,completed,normal,Unit C
+P100266,11/29/2024,11:30,General Medicine,Dr. Irene Martinez,General Practitioner,11/29/2024 11:30,11/29/2024 11:22,7,24,0,completed,normal,Unit A
+P100267,4/14/2024,11:15,Pediatrics,Dr. Grace Lewis,Pediatrician,4/14/2024 11:15,4/14/2024 11:09,20,16,0,completed,normal,Unit B
+P100268,4/9/2024,9:00,Pediatrics,Dr. Henry Patel,Pediatrician,4/9/2024 9:00,4/9/2024 8:59,29,16,0,completed,urgent,Unit B
+P100269,1/23/2024,15:00,Oncology,Dr. Emma Clark,Oncologist,1/23/2024 15:00,1/23/2024 15:12,12,23,0,completed,normal,Unit C
+P100270,7/23/2024,14:00,General Medicine,Dr. Jason Lee,General Practitioner,7/23/2024 14:00,7/23/2024 13:59,42,21,0,completed,normal,Unit B
+P100271,1/11/2024,15:45,General Medicine,Dr. Irene Martinez,General Practitioner,1/11/2024 15:45,1/11/2024 15:45,9,15,0,completed,normal,Unit A
+P100272,6/5/2024,9:15,General Medicine,Dr. Irene Martinez,General Practitioner,6/5/2024 9:15,6/5/2024 9:11,17,19,1,no_show,normal,Unit C
+P100273,1/13/2024,11:30,Neurology,Dr. Daniel Kim,Neurologist,1/13/2024 11:30,1/13/2024 11:34,17,28,0,completed,normal,Unit A
+P100274,3/18/2024,14:45,Pediatrics,Dr. Grace Lewis,Pediatrician,3/18/2024 14:45,3/18/2024 14:39,0,11,1,no_show,normal,Unit B
+P100275,7/13/2024,15:00,Cardiology,Dr. Bob Johnson,Cardiologist,7/13/2024 15:00,7/13/2024 15:00,12,25,0,completed,normal,Unit A
+P100276,8/11/2024,8:30,General Medicine,Dr. Jason Lee,General Practitioner,8/11/2024 8:30,8/11/2024 8:38,28,19,0,cancelled,normal,Unit A
+P100277,3/20/2024,15:00,Neurology,Dr. Daniel Kim,Neurologist,3/20/2024 15:00,3/20/2024 15:00,4,20,0,completed,normal,Unit A
+P100278,2/3/2024,13:00,General Medicine,Dr. Irene Martinez,General Practitioner,2/3/2024 13:00,2/3/2024 12:43,23,18,0,completed,normal,Unit B
+P100279,6/16/2024,14:00,General Medicine,Dr. Irene Martinez,General Practitioner,6/16/2024 14:00,6/16/2024 14:17,14,18,0,completed,urgent,Unit C
+P100280,8/10/2024,8:15,Cardiology,Dr. Alice Smith,Cardiologist,8/10/2024 8:15,8/10/2024 8:07,0,26,0,completed,normal,Unit B
+P100281,3/16/2024,14:15,Neurology,Dr. Daniel Kim,Neurologist,3/16/2024 14:15,3/16/2024 14:12,0,25,0,cancelled,normal,Unit A
+P100282,8/10/2024,8:45,General Medicine,Dr. Jason Lee,General Practitioner,8/10/2024 8:45,8/10/2024 8:29,10,17,0,completed,normal,Unit C
+P100283,7/18/2024,12:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,7/18/2024 12:00,7/18/2024 12:05,17,18,0,completed,normal,Unit C
+P100284,7/17/2024,11:45,Oncology,Dr. Emma Clark,Oncologist,7/17/2024 11:45,7/17/2024 11:39,27,22,0,completed,normal,Unit A
+P100285,4/23/2024,15:15,Neurology,Dr. Carol Lee,Neurologist,4/23/2024 15:15,4/23/2024 15:14,8,26,0,completed,normal,Unit A
+P100286,3/19/2024,10:30,General Medicine,Dr. Jason Lee,General Practitioner,3/19/2024 10:30,3/19/2024 10:28,26,15,0,completed,normal,Unit A
+P100287,1/7/2024,8:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,1/7/2024 8:15,1/7/2024 8:10,9,18,0,completed,normal,Unit A
+P100288,4/24/2024,12:15,Neurology,Dr. Carol Lee,Neurologist,4/24/2024 12:15,4/24/2024 12:23,0,23,0,completed,normal,Unit A
+P100289,7/26/2024,13:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/26/2024 13:30,7/26/2024 13:54,8,25,0,completed,normal,Unit B
+P100290,4/22/2024,9:15,Oncology,Dr. Frank Wright,Oncologist,4/22/2024 9:15,4/22/2024 9:15,15,23,0,completed,normal,Unit C
+P100291,7/7/2024,12:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,7/7/2024 12:00,7/7/2024 12:09,18,27,1,no_show,normal,Unit C
+P100292,7/21/2024,8:45,General Medicine,Dr. Jason Lee,General Practitioner,7/21/2024 8:45,7/21/2024 8:42,6,23,0,completed,normal,Unit A
+P100293,7/29/2024,9:45,Pediatrics,Dr. Henry Patel,Pediatrician,7/29/2024 9:45,7/29/2024 9:45,22,17,0,completed,normal,Unit B
+P100294,10/31/2024,10:00,Cardiology,Dr. Bob Johnson,Cardiologist,10/31/2024 10:00,10/31/2024 9:52,20,24,0,cancelled,urgent,Unit C
+P100295,2/4/2024,14:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,2/4/2024 14:00,2/4/2024 13:57,16,22,1,no_show,normal,Unit A
+P100296,2/23/2024,15:30,General Medicine,Dr. Jason Lee,General Practitioner,2/23/2024 15:30,2/23/2024 15:18,25,16,0,completed,normal,Unit C
+P100297,4/3/2024,12:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/3/2024 12:00,4/3/2024 12:00,36,14,0,completed,normal,Unit B
+P100298,3/4/2024,13:45,Pediatrics,Dr. Henry Patel,Pediatrician,3/4/2024 13:45,3/4/2024 14:04,40,15,0,completed,normal,Unit A
+P100299,8/8/2024,15:45,Neurology,Dr. Daniel Kim,Neurologist,8/8/2024 15:45,8/8/2024 15:53,24,13,0,completed,urgent,Unit C
+P100300,8/14/2024,15:30,General Medicine,Dr. Irene Martinez,General Practitioner,8/14/2024 15:30,8/14/2024 15:03,0,18,0,completed,normal,Unit B
+P100301,4/4/2024,10:15,General Medicine,Dr. Jason Lee,General Practitioner,4/4/2024 10:15,4/4/2024 10:17,32,24,0,completed,normal,Unit C
+P100302,5/25/2024,11:15,Oncology,Dr. Emma Clark,Oncologist,5/25/2024 11:15,5/25/2024 10:54,6,21,0,completed,normal,Unit C
+P100303,6/20/2024,15:15,Pediatrics,Dr. Grace Lewis,Pediatrician,6/20/2024 15:15,6/20/2024 15:15,0,17,0,completed,normal,Unit A
+P100304,11/23/2024,11:00,Pediatrics,Dr. Henry Patel,Pediatrician,11/23/2024 11:00,11/23/2024 11:01,25,13,0,completed,urgent,Unit C
+P100305,3/16/2024,15:15,General Medicine,Dr. Irene Martinez,General Practitioner,3/16/2024 15:15,3/16/2024 15:14,19,18,0,completed,normal,Unit A
+P100306,10/19/2024,11:00,Neurology,Dr. Daniel Kim,Neurologist,10/19/2024 11:00,10/19/2024 11:00,53,16,0,completed,normal,Unit A
+P100307,7/12/2024,16:00,Neurology,Dr. Carol Lee,Neurologist,7/12/2024 16:00,7/12/2024 16:19,0,18,0,completed,normal,Unit C
+P100308,3/23/2024,9:00,Neurology,Dr. Carol Lee,Neurologist,3/23/2024 9:00,3/23/2024 8:56,17,17,0,completed,urgent,Unit B
+P100309,3/2/2024,16:00,Oncology,Dr. Frank Wright,Oncologist,3/2/2024 16:00,3/2/2024 15:48,30,16,0,completed,normal,Unit C
+P100310,3/21/2024,9:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,3/21/2024 9:00,3/21/2024 9:02,15,14,0,completed,urgent,Unit C
+P100311,9/5/2024,10:15,Neurology,Dr. Carol Lee,Neurologist,9/5/2024 10:15,9/5/2024 10:15,29,16,0,completed,normal,Unit C
+P100312,12/1/2024,10:45,Pediatrics,Dr. Grace Lewis,Pediatrician,12/1/2024 10:45,12/1/2024 10:59,25,15,0,completed,urgent,Unit A
+P100313,3/26/2024,16:30,Cardiology,Dr. Alice Smith,Cardiologist,3/26/2024 16:30,3/26/2024 16:27,29,32,1,no_show,normal,Unit A
+P100314,1/6/2024,10:30,Cardiology,Dr. Alice Smith,Cardiologist,1/6/2024 10:30,1/6/2024 10:50,7,21,0,completed,urgent,Unit A
+P100315,5/2/2024,8:00,Neurology,Dr. Carol Lee,Neurologist,5/2/2024 8:00,5/2/2024 7:48,26,14,0,completed,urgent,Unit B
+P100316,10/10/2024,16:00,Oncology,Dr. Emma Clark,Oncologist,10/10/2024 16:00,10/10/2024 16:01,26,17,0,completed,normal,Unit C
+P100317,4/18/2024,16:30,General Medicine,Dr. Jason Lee,General Practitioner,4/18/2024 16:30,4/18/2024 16:50,22,17,0,completed,normal,Unit C
+P100318,8/16/2024,16:45,Cardiology,Dr. Bob Johnson,Cardiologist,8/16/2024 16:45,8/16/2024 16:33,7,26,0,completed,normal,Unit A
+P100319,4/16/2024,9:30,Pediatrics,Dr. Grace Lewis,Pediatrician,4/16/2024 9:30,4/16/2024 9:22,3,21,0,completed,normal,Unit A
+P100320,7/15/2024,14:15,Pediatrics,Dr. Henry Patel,Pediatrician,7/15/2024 14:15,7/15/2024 14:08,27,17,1,no_show,normal,Unit C
+P100321,12/24/2024,8:30,Neurology,Dr. Carol Lee,Neurologist,12/24/2024 8:30,12/24/2024 8:40,22,19,0,completed,normal,Unit B
+P100322,1/28/2024,10:45,General Medicine,Dr. Irene Martinez,General Practitioner,1/28/2024 10:45,1/28/2024 10:53,15,21,0,completed,normal,Unit A
+P100323,5/6/2024,12:00,Neurology,Dr. Daniel Kim,Neurologist,5/6/2024 12:00,5/6/2024 12:26,16,17,0,cancelled,normal,Unit B
+P100324,9/18/2024,10:30,Neurology,Dr. Carol Lee,Neurologist,9/18/2024 10:30,9/18/2024 10:22,9,14,0,completed,normal,Unit C
+P100325,4/20/2024,12:00,Pediatrics,Dr. Henry Patel,Pediatrician,4/20/2024 12:00,4/20/2024 12:08,23,22,0,completed,normal,Unit C
+P100326,3/12/2024,8:00,Neurology,Dr. Daniel Kim,Neurologist,3/12/2024 8:00,3/12/2024 7:51,8,13,0,completed,normal,Unit A
+P100327,4/28/2024,9:45,Oncology,Dr. Frank Wright,Oncologist,4/28/2024 9:45,4/28/2024 9:32,14,18,0,completed,normal,Unit C
+P100328,12/14/2024,8:30,Cardiology,Dr. Alice Smith,Cardiologist,12/14/2024 8:30,12/14/2024 8:34,18,17,0,completed,normal,Unit B
+P100329,2/18/2024,11:15,Cardiology,Dr. Alice Smith,Cardiologist,2/18/2024 11:15,2/18/2024 11:02,37,25,0,completed,normal,Unit B
+P100330,2/18/2024,8:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,2/18/2024 8:00,2/18/2024 7:51,16,14,1,no_show,normal,Unit C
+P100331,6/21/2024,13:15,Neurology,Dr. Carol Lee,Neurologist,6/21/2024 13:15,6/21/2024 13:23,14,25,0,completed,normal,Unit A
+P100332,2/5/2024,8:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,2/5/2024 8:45,2/5/2024 8:47,21,16,0,completed,normal,Unit A
+P100333,11/19/2024,12:30,Cardiology,Dr. Bob Johnson,Cardiologist,11/19/2024 12:30,11/19/2024 12:39,15,17,0,completed,normal,Unit A
+P100334,10/21/2024,10:45,Pediatrics,Dr. Henry Patel,Pediatrician,10/21/2024 10:45,10/21/2024 11:01,10,6,0,completed,normal,Unit B
+P100335,11/18/2024,14:15,Cardiology,Dr. Bob Johnson,Cardiologist,11/18/2024 14:15,11/18/2024 14:12,0,25,0,completed,normal,Unit B
+P100336,7/24/2024,14:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,7/24/2024 14:00,7/24/2024 14:13,10,13,0,completed,normal,Unit C
+P100337,5/25/2024,9:15,Neurology,Dr. Daniel Kim,Neurologist,5/25/2024 9:15,5/25/2024 9:20,10,22,0,completed,normal,Unit B
+P100338,7/11/2024,12:15,Pediatrics,Dr. Henry Patel,Pediatrician,7/11/2024 12:15,7/11/2024 12:24,65,22,0,completed,normal,Unit C
+P100339,7/9/2024,11:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/9/2024 11:00,7/9/2024 11:01,37,19,0,cancelled,normal,Unit A
+P100340,1/28/2024,14:15,General Medicine,Dr. Irene Martinez,General Practitioner,1/28/2024 14:15,1/28/2024 14:22,33,23,0,completed,normal,Unit B
+P100341,11/15/2024,12:30,Oncology,Dr. Emma Clark,Oncologist,11/15/2024 12:30,11/15/2024 12:27,21,19,0,completed,normal,Unit A
+P100342,9/18/2024,8:00,Cardiology,Dr. Bob Johnson,Cardiologist,9/18/2024 8:00,9/18/2024 8:07,0,21,0,completed,normal,Unit C
+P100343,9/9/2024,16:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,9/9/2024 16:15,9/9/2024 16:07,13,17,0,completed,normal,Unit C
+P100344,8/5/2024,13:15,Oncology,Dr. Emma Clark,Oncologist,8/5/2024 13:15,8/5/2024 13:06,27,20,0,completed,normal,Unit A
+P100345,12/8/2024,15:00,Neurology,Dr. Carol Lee,Neurologist,12/8/2024 15:00,12/8/2024 14:55,15,23,0,cancelled,urgent,Unit C
+P100346,1/29/2024,15:15,Cardiology,Dr. Alice Smith,Cardiologist,1/29/2024 15:15,1/29/2024 15:09,15,20,0,completed,normal,Unit B
+P100347,10/16/2024,16:45,Oncology,Dr. Emma Clark,Oncologist,10/16/2024 16:45,10/16/2024 16:35,22,15,0,completed,urgent,Unit B
+P100348,4/17/2024,13:15,Neurology,Dr. Daniel Kim,Neurologist,4/17/2024 13:15,4/17/2024 13:25,0,24,0,completed,normal,Unit B
+P100349,8/13/2024,12:15,General Medicine,Dr. Irene Martinez,General Practitioner,8/13/2024 12:15,8/13/2024 12:15,0,21,0,completed,normal,Unit B
+P100350,5/31/2024,15:45,Oncology,Dr. Emma Clark,Oncologist,5/31/2024 15:45,5/31/2024 15:57,16,25,0,completed,normal,Unit B
+P100351,6/18/2024,10:30,Pediatrics,Dr. Henry Patel,Pediatrician,6/18/2024 10:30,6/18/2024 10:37,0,18,0,completed,normal,Unit C
+P100352,10/22/2024,14:30,Cardiology,Dr. Bob Johnson,Cardiologist,10/22/2024 14:30,10/22/2024 14:49,47,20,0,completed,normal,Unit B
+P100353,12/19/2024,12:15,Oncology,Dr. Frank Wright,Oncologist,12/19/2024 12:15,12/19/2024 12:15,0,30,0,completed,normal,Unit A
+P100354,3/25/2024,10:15,General Medicine,Dr. Irene Martinez,General Practitioner,3/25/2024 10:15,3/25/2024 10:22,16,13,0,completed,urgent,Unit C
+P100355,3/30/2024,15:15,Cardiology,Dr. Alice Smith,Cardiologist,3/30/2024 15:15,3/30/2024 15:24,0,25,0,completed,urgent,Unit C
+P100356,6/5/2024,12:30,Pediatrics,Dr. Henry Patel,Pediatrician,6/5/2024 12:30,6/5/2024 12:30,13,25,0,completed,normal,Unit C
+P100357,3/22/2024,10:00,Pediatrics,Dr. Henry Patel,Pediatrician,3/22/2024 10:00,3/22/2024 9:58,3,19,0,completed,normal,Unit C
+P100358,2/26/2024,8:00,General Medicine,Dr. Jason Lee,General Practitioner,2/26/2024 8:00,2/26/2024 8:05,13,23,0,completed,normal,Unit C
+P100359,5/21/2024,10:15,General Medicine,Dr. Jason Lee,General Practitioner,5/21/2024 10:15,5/21/2024 10:05,20,17,0,completed,urgent,Unit C
+P100360,3/28/2024,11:30,Neurology,Dr. Daniel Kim,Neurologist,3/28/2024 11:30,3/28/2024 11:30,20,16,1,no_show,normal,Unit A
+P100361,8/11/2024,9:15,Neurology,Dr. Carol Lee,Neurologist,8/11/2024 9:15,8/11/2024 9:18,2,19,0,completed,normal,Unit A
+P100362,11/3/2024,10:15,Oncology,Dr. Emma Clark,Oncologist,11/3/2024 10:15,11/3/2024 10:24,12,16,0,completed,urgent,Unit C
+P100363,11/29/2024,13:00,Neurology,Dr. Daniel Kim,Neurologist,11/29/2024 13:00,11/29/2024 13:16,35,23,0,completed,normal,Unit A
+P100364,4/5/2024,15:30,Cardiology,Dr. Alice Smith,Cardiologist,4/5/2024 15:30,4/5/2024 15:28,21,16,0,completed,normal,Unit B
+P100365,4/9/2024,10:15,Neurology,Dr. Carol Lee,Neurologist,4/9/2024 10:15,4/9/2024 10:22,3,24,0,completed,normal,Unit C
+P100366,9/3/2024,15:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,9/3/2024 15:30,9/3/2024 15:12,20,23,0,completed,normal,Unit A
+P100367,12/19/2024,11:00,Oncology,Dr. Emma Clark,Oncologist,12/19/2024 11:00,12/19/2024 11:20,6,16,0,completed,normal,Unit B
+P100368,4/18/2024,10:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,4/18/2024 10:45,4/18/2024 11:09,11,11,0,completed,normal,Unit A
+P100369,8/9/2024,13:15,Oncology,Dr. Frank Wright,Oncologist,8/9/2024 13:15,8/9/2024 13:23,0,24,0,completed,normal,Unit B
+P100370,6/25/2024,8:00,Pediatrics,Dr. Grace Lewis,Pediatrician,6/25/2024 8:00,6/25/2024 8:01,0,26,1,no_show,normal,Unit B
+P100371,3/28/2024,14:45,Pediatrics,Dr. Grace Lewis,Pediatrician,3/28/2024 14:45,3/28/2024 14:37,36,30,0,completed,normal,Unit B
+P100372,5/29/2024,15:45,Oncology,Dr. Frank Wright,Oncologist,5/29/2024 15:45,5/29/2024 15:39,14,14,0,completed,normal,Unit C
+P100373,8/9/2024,10:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,8/9/2024 10:30,8/9/2024 10:30,9,13,0,completed,urgent,Unit C
+P100374,6/22/2024,14:45,Neurology,Dr. Carol Lee,Neurologist,6/22/2024 14:45,6/22/2024 14:53,29,22,0,completed,normal,Unit C
+P100375,11/10/2024,15:45,Neurology,Dr. Carol Lee,Neurologist,11/10/2024 15:45,11/10/2024 15:41,19,12,0,completed,normal,Unit A
+P100376,4/13/2024,10:00,Oncology,Dr. Emma Clark,Oncologist,4/13/2024 10:00,4/13/2024 10:05,0,30,0,completed,normal,Unit C
+P100377,3/22/2024,11:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,3/22/2024 11:00,3/22/2024 11:01,15,21,0,completed,normal,Unit B
+P100378,8/13/2024,8:45,Oncology,Dr. Frank Wright,Oncologist,8/13/2024 8:45,8/13/2024 8:26,2,16,0,completed,urgent,Unit C
+P100379,7/11/2024,9:45,Neurology,Dr. Daniel Kim,Neurologist,7/11/2024 9:45,7/11/2024 9:38,7,19,0,completed,normal,Unit B
+P100380,6/28/2024,15:30,Pediatrics,Dr. Henry Patel,Pediatrician,6/28/2024 15:30,6/28/2024 15:29,16,16,0,completed,normal,Unit B
+P100381,10/14/2024,13:30,Oncology,Dr. Frank Wright,Oncologist,10/14/2024 13:30,10/14/2024 13:39,32,27,0,completed,normal,Unit C
+P100382,1/29/2024,10:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,1/29/2024 10:00,1/29/2024 10:28,12,18,1,no_show,normal,Unit C
+P100383,4/14/2024,10:00,Oncology,Dr. Frank Wright,Oncologist,4/14/2024 10:00,4/14/2024 9:53,0,34,0,completed,normal,Unit A
+P100384,9/17/2024,14:45,Cardiology,Dr. Alice Smith,Cardiologist,9/17/2024 14:45,9/17/2024 14:39,18,19,0,completed,urgent,Unit A
+P100385,5/16/2024,14:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,5/16/2024 14:30,5/16/2024 14:13,14,22,0,completed,normal,Unit C
+P100386,5/18/2024,15:00,Neurology,Dr. Carol Lee,Neurologist,5/18/2024 15:00,5/18/2024 15:07,11,22,0,completed,urgent,Unit B
+P100387,4/11/2024,13:00,Pediatrics,Dr. Grace Lewis,Pediatrician,4/11/2024 13:00,4/11/2024 12:42,25,15,0,completed,urgent,Unit A
+P100388,3/16/2024,8:00,Pediatrics,Dr. Grace Lewis,Pediatrician,3/16/2024 8:00,3/16/2024 7:56,11,18,0,completed,urgent,Unit C
+P100389,7/30/2024,16:00,Neurology,Dr. Carol Lee,Neurologist,7/30/2024 16:00,7/30/2024 16:08,15,16,0,completed,urgent,Unit C
+P100390,9/28/2024,10:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,9/28/2024 10:00,9/28/2024 10:00,19,18,0,completed,normal,Unit B
+P100391,2/5/2024,15:15,Pediatrics,Dr. Henry Patel,Pediatrician,2/5/2024 15:15,2/5/2024 15:16,32,25,0,completed,normal,Unit C
+P100392,5/27/2024,12:45,Neurology,Dr. Carol Lee,Neurologist,5/27/2024 12:45,5/27/2024 12:47,23,15,0,cancelled,normal,Unit B
+P100393,3/31/2024,12:30,Neurology,Dr. Daniel Kim,Neurologist,3/31/2024 12:30,3/31/2024 12:29,16,13,0,completed,normal,Unit C
+P100394,6/12/2024,11:15,Cardiology,Dr. Alice Smith,Cardiologist,6/12/2024 11:15,6/12/2024 11:42,31,23,0,completed,normal,Unit B
+P100395,4/27/2024,9:30,Neurology,Dr. Daniel Kim,Neurologist,4/27/2024 9:30,4/27/2024 9:30,11,14,0,completed,normal,Unit A
+P100396,3/14/2024,16:00,Cardiology,Dr. Bob Johnson,Cardiologist,3/14/2024 16:00,3/14/2024 16:16,19,20,0,completed,normal,Unit C
+P100397,6/3/2024,12:30,Oncology,Dr. Emma Clark,Oncologist,6/3/2024 12:30,6/3/2024 12:19,26,21,0,completed,normal,Unit A
+P100398,11/27/2024,8:30,Pediatrics,Dr. Grace Lewis,Pediatrician,11/27/2024 8:30,11/27/2024 8:21,11,16,0,completed,normal,Unit A
+P100399,6/7/2024,9:00,Neurology,Dr. Carol Lee,Neurologist,6/7/2024 9:00,6/7/2024 8:47,36,22,0,completed,normal,Unit B
+P100400,9/1/2024,8:45,Neurology,Dr. Carol Lee,Neurologist,9/1/2024 8:45,9/1/2024 8:30,5,13,0,completed,normal,Unit B
+P100401,1/25/2024,12:45,Pediatrics,Dr. Grace Lewis,Pediatrician,1/25/2024 12:45,1/25/2024 12:42,11,22,0,completed,normal,Unit A
+P100402,8/24/2024,10:45,Neurology,Dr. Daniel Kim,Neurologist,8/24/2024 10:45,8/24/2024 10:52,1,16,0,cancelled,normal,Unit B
+P100403,6/7/2024,13:30,Neurology,Dr. Daniel Kim,Neurologist,6/7/2024 13:30,6/7/2024 13:41,27,27,0,completed,normal,Unit B
+P100404,8/27/2024,10:45,Cardiology,Dr. Alice Smith,Cardiologist,8/27/2024 10:45,8/27/2024 10:45,29,20,0,cancelled,normal,Unit C
+P100405,8/29/2024,10:15,Pediatrics,Dr. Grace Lewis,Pediatrician,8/29/2024 10:15,8/29/2024 10:24,0,25,0,completed,normal,Unit A
+P100406,3/8/2024,10:15,Neurology,Dr. Daniel Kim,Neurologist,3/8/2024 10:15,3/8/2024 10:13,8,15,0,completed,normal,Unit C
+P100407,8/27/2024,10:30,Cardiology,Dr. Bob Johnson,Cardiologist,8/27/2024 10:30,8/27/2024 10:24,19,19,0,completed,normal,Unit C
+P100408,6/8/2024,13:15,General Medicine,Dr. Irene Martinez,General Practitioner,6/8/2024 13:15,6/8/2024 13:07,12,22,0,completed,normal,Unit B
+P100409,4/18/2024,12:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,4/18/2024 12:00,4/18/2024 12:06,11,19,0,completed,normal,Unit B
+P100410,3/19/2024,13:00,Neurology,Dr. Carol Lee,Neurologist,3/19/2024 13:00,3/19/2024 13:14,16,22,0,completed,urgent,Unit B
+P100411,12/17/2024,14:00,General Medicine,Dr. Irene Martinez,General Practitioner,12/17/2024 14:00,12/17/2024 14:01,19,25,0,completed,normal,Unit C
+P100412,11/12/2024,13:15,Neurology,Dr. Carol Lee,Neurologist,11/12/2024 13:15,11/12/2024 13:07,8,23,0,completed,urgent,Unit C
+P100413,1/15/2024,12:45,Pediatrics,Dr. Grace Lewis,Pediatrician,1/15/2024 12:45,1/15/2024 12:38,23,20,0,completed,normal,Unit B
+P100414,2/15/2024,12:00,Oncology,Dr. Emma Clark,Oncologist,2/15/2024 12:00,2/15/2024 11:51,18,17,1,no_show,normal,Unit C
+P100415,6/4/2024,10:00,Pediatrics,Dr. Grace Lewis,Pediatrician,6/4/2024 10:00,6/4/2024 9:55,22,24,0,completed,normal,Unit A
+P100416,1/14/2024,8:30,Oncology,Dr. Frank Wright,Oncologist,1/14/2024 8:30,1/14/2024 8:24,17,16,0,completed,normal,Unit B
+P100417,12/27/2024,11:15,General Medicine,Dr. Irene Martinez,General Practitioner,12/27/2024 11:15,12/27/2024 11:29,4,7,0,completed,normal,Unit B
+P100418,7/22/2024,16:45,Oncology,Dr. Frank Wright,Oncologist,7/22/2024 16:45,7/22/2024 16:42,26,16,0,cancelled,normal,Unit B
+P100419,11/29/2024,9:00,Pediatrics,Dr. Grace Lewis,Pediatrician,11/29/2024 9:00,11/29/2024 8:49,22,23,0,completed,normal,Unit A
+P100420,2/5/2024,15:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,2/5/2024 15:30,2/5/2024 15:48,12,8,0,completed,normal,Unit A
+P100421,9/5/2024,8:30,Neurology,Dr. Carol Lee,Neurologist,9/5/2024 8:30,9/5/2024 8:35,7,26,0,completed,normal,Unit B
+P100422,5/3/2024,8:00,Cardiology,Dr. Bob Johnson,Cardiologist,5/3/2024 8:00,5/3/2024 8:03,23,25,0,completed,urgent,Unit C
+P100423,11/20/2024,9:45,General Medicine,Dr. Jason Lee,General Practitioner,11/20/2024 9:45,11/20/2024 9:45,4,27,0,completed,normal,Unit B
+P100424,10/21/2024,15:15,Oncology,Dr. Emma Clark,Oncologist,10/21/2024 15:15,10/21/2024 15:17,12,11,0,completed,normal,Unit B
+P100425,4/23/2024,8:45,Oncology,Dr. Frank Wright,Oncologist,4/23/2024 8:45,4/23/2024 8:48,7,17,0,completed,normal,Unit A
+P100426,7/23/2024,12:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,7/23/2024 12:30,7/23/2024 12:35,2,22,0,completed,normal,Unit C
+P100427,6/30/2024,15:30,Neurology,Dr. Carol Lee,Neurologist,6/30/2024 15:30,6/30/2024 15:30,8,17,1,no_show,normal,Unit C
+P100428,11/23/2024,10:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,11/23/2024 10:30,11/23/2024 10:30,1,20,0,completed,urgent,Unit C
+P100429,7/30/2024,16:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,7/30/2024 16:45,7/30/2024 16:53,21,26,0,completed,normal,Unit B
+P100430,12/30/2024,12:15,Neurology,Dr. Daniel Kim,Neurologist,12/30/2024 12:15,12/30/2024 11:56,29,27,1,no_show,normal,Unit C
+P100431,3/6/2024,11:45,Oncology,Dr. Frank Wright,Oncologist,3/6/2024 11:45,3/6/2024 11:45,25,19,0,completed,normal,Unit C
+P100432,10/23/2024,15:00,Oncology,Dr. Frank Wright,Oncologist,10/23/2024 15:00,10/23/2024 14:57,33,36,0,completed,normal,Unit C
+P100433,1/7/2024,14:15,Neurology,Dr. Carol Lee,Neurologist,1/7/2024 14:15,1/7/2024 14:24,38,15,0,completed,normal,Unit C
+P100434,12/14/2024,8:45,Neurology,Dr. Carol Lee,Neurologist,12/14/2024 8:45,12/14/2024 8:51,16,14,0,completed,urgent,Unit B
+P100435,6/14/2024,15:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,6/14/2024 15:30,6/14/2024 15:35,9,19,0,completed,normal,Unit B
+P100436,7/7/2024,10:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/7/2024 10:30,7/7/2024 10:41,32,21,0,completed,normal,Unit B
+P100437,10/11/2024,13:15,Oncology,Dr. Emma Clark,Oncologist,10/11/2024 13:15,10/11/2024 13:08,24,19,0,completed,normal,Unit A
+P100438,9/23/2024,9:30,Oncology,Dr. Frank Wright,Oncologist,9/23/2024 9:30,9/23/2024 9:37,13,15,0,completed,urgent,Unit C
+P100439,7/6/2024,9:45,Pediatrics,Dr. Grace Lewis,Pediatrician,7/6/2024 9:45,7/6/2024 9:38,9,22,0,completed,normal,Unit C
+P100440,6/10/2024,14:15,Pediatrics,Dr. Grace Lewis,Pediatrician,6/10/2024 14:15,6/10/2024 14:13,12,19,0,completed,normal,Unit A
+P100441,6/22/2024,11:15,Pediatrics,Dr. Henry Patel,Pediatrician,6/22/2024 11:15,6/22/2024 11:17,47,8,0,completed,normal,Unit C
+P100442,12/8/2024,8:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,12/8/2024 8:15,12/8/2024 8:15,22,15,0,completed,normal,Unit A
+P100443,7/26/2024,9:00,Pediatrics,Dr. Grace Lewis,Pediatrician,7/26/2024 9:00,7/26/2024 8:56,28,23,0,completed,normal,Unit A
+P100444,5/20/2024,10:15,General Medicine,Dr. Jason Lee,General Practitioner,5/20/2024 10:15,5/20/2024 10:07,17,20,0,completed,normal,Unit A
+P100445,6/29/2024,12:15,General Medicine,Dr. Irene Martinez,General Practitioner,6/29/2024 12:15,6/29/2024 12:18,9,22,0,completed,normal,Unit B
+P100446,9/2/2024,13:15,General Medicine,Dr. Irene Martinez,General Practitioner,9/2/2024 13:15,9/2/2024 13:08,32,18,0,completed,normal,Unit A
+P100447,5/11/2024,13:45,Pediatrics,Dr. Grace Lewis,Pediatrician,5/11/2024 13:45,5/11/2024 13:54,26,19,1,no_show,normal,Unit C
+P100448,5/14/2024,12:45,Cardiology,Dr. Bob Johnson,Cardiologist,5/14/2024 12:45,5/14/2024 12:53,0,19,0,completed,urgent,Unit A
+P100449,4/29/2024,14:00,Pediatrics,Dr. Grace Lewis,Pediatrician,4/29/2024 14:00,4/29/2024 14:07,15,23,0,completed,normal,Unit A
+P100450,12/29/2024,12:00,Cardiology,Dr. Alice Smith,Cardiologist,12/29/2024 12:00,12/29/2024 11:49,23,18,0,completed,normal,Unit B
+P100451,10/16/2024,11:45,Oncology,Dr. Emma Clark,Oncologist,10/16/2024 11:45,10/16/2024 11:45,38,21,0,completed,normal,Unit A
+P100452,8/23/2024,11:45,Neurology,Dr. Carol Lee,Neurologist,8/23/2024 11:45,8/23/2024 11:44,8,22,0,completed,normal,Unit A
+P100453,1/18/2024,14:45,Cardiology,Dr. Bob Johnson,Cardiologist,1/18/2024 14:45,1/18/2024 14:35,31,13,0,completed,normal,Unit C
+P100454,1/8/2024,13:15,Cardiology,Dr. Alice Smith,Cardiologist,1/8/2024 13:15,1/8/2024 13:16,45,18,0,completed,normal,Unit C
+P100455,9/14/2024,16:00,Pediatrics,Dr. Grace Lewis,Pediatrician,9/14/2024 16:00,9/14/2024 15:50,16,22,1,no_show,normal,Unit A
+P100456,2/26/2024,14:45,Oncology,Dr. Emma Clark,Oncologist,2/26/2024 14:45,2/26/2024 14:32,27,32,0,completed,normal,Unit C
+P100457,7/24/2024,13:45,Cardiology,Dr. Alice Smith,Cardiologist,7/24/2024 13:45,7/24/2024 13:55,12,23,0,completed,normal,Unit C
+P100458,11/3/2024,9:15,Oncology,Dr. Frank Wright,Oncologist,11/3/2024 9:15,11/3/2024 9:32,24,23,0,completed,urgent,Unit C
+P100459,7/16/2024,14:00,General Medicine,Dr. Jason Lee,General Practitioner,7/16/2024 14:00,7/16/2024 14:04,24,17,0,completed,normal,Unit B
+P100460,2/18/2024,16:45,Oncology,Dr. Emma Clark,Oncologist,2/18/2024 16:45,2/18/2024 16:38,6,13,0,cancelled,normal,Unit B
+P100461,9/29/2024,10:45,Oncology,Dr. Frank Wright,Oncologist,9/29/2024 10:45,9/29/2024 10:32,25,28,0,completed,normal,Unit C
+P100462,7/20/2024,10:30,General Medicine,Dr. Irene Martinez,General Practitioner,7/20/2024 10:30,7/20/2024 10:42,8,25,0,completed,urgent,Unit A
+P100463,8/19/2024,13:15,Pediatrics,Dr. Grace Lewis,Pediatrician,8/19/2024 13:15,8/19/2024 13:05,24,20,0,completed,normal,Unit C
+P100464,12/16/2024,8:45,General Medicine,Dr. Jason Lee,General Practitioner,12/16/2024 8:45,12/16/2024 8:54,18,13,1,no_show,normal,Unit B
+P100465,5/7/2024,10:30,Oncology,Dr. Emma Clark,Oncologist,5/7/2024 10:30,5/7/2024 10:36,26,11,0,completed,normal,Unit C
+P100466,8/30/2024,11:45,General Medicine,Dr. Irene Martinez,General Practitioner,8/30/2024 11:45,8/30/2024 11:46,9,17,0,cancelled,normal,Unit C
+P100467,6/8/2024,13:00,Cardiology,Dr. Alice Smith,Cardiologist,6/8/2024 13:00,6/8/2024 13:07,3,18,0,completed,normal,Unit B
+P100468,1/14/2024,13:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,1/14/2024 13:30,1/14/2024 13:00,22,22,0,completed,urgent,Unit A
+P100469,1/9/2024,10:15,Neurology,Dr. Carol Lee,Neurologist,1/9/2024 10:15,1/9/2024 10:25,20,8,0,completed,normal,Unit B
+P100470,6/2/2024,11:00,Oncology,Dr. Frank Wright,Oncologist,6/2/2024 11:00,6/2/2024 10:58,28,28,0,completed,normal,Unit B
+P100471,10/23/2024,8:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,10/23/2024 8:30,10/23/2024 8:28,24,18,0,completed,normal,Unit B
+P100472,1/22/2024,12:15,Oncology,Dr. Frank Wright,Oncologist,1/22/2024 12:15,1/22/2024 12:20,18,15,0,completed,normal,Unit A
+P100473,1/22/2024,13:45,Neurology,Dr. Carol Lee,Neurologist,1/22/2024 13:45,1/22/2024 13:39,13,6,0,completed,normal,Unit B
+P100474,5/6/2024,9:15,Neurology,Dr. Carol Lee,Neurologist,5/6/2024 9:15,5/6/2024 9:23,36,17,0,completed,normal,Unit B
+P100475,5/24/2024,15:45,Pediatrics,Dr. Henry Patel,Pediatrician,5/24/2024 15:45,5/24/2024 15:34,19,5,0,completed,normal,Unit A
+P100476,5/27/2024,8:45,Pediatrics,Dr. Henry Patel,Pediatrician,5/27/2024 8:45,5/27/2024 8:45,16,20,0,completed,normal,Unit C
+P100477,9/26/2024,9:30,Cardiology,Dr. Bob Johnson,Cardiologist,9/26/2024 9:30,9/26/2024 9:26,16,16,1,no_show,normal,Unit C
+P100478,6/19/2024,8:45,Oncology,Dr. Emma Clark,Oncologist,6/19/2024 8:45,6/19/2024 8:50,9,24,0,cancelled,urgent,Unit A
+P100479,9/16/2024,14:15,Cardiology,Dr. Alice Smith,Cardiologist,9/16/2024 14:15,9/16/2024 14:11,27,21,0,completed,normal,Unit A
+P100480,6/11/2024,12:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,6/11/2024 12:30,6/11/2024 12:31,12,17,0,completed,normal,Unit C
+P100481,9/23/2024,13:15,Cardiology,Dr. Alice Smith,Cardiologist,9/23/2024 13:15,9/23/2024 13:17,25,19,0,completed,normal,Unit B
+P100482,9/20/2024,12:45,Neurology,Dr. Carol Lee,Neurologist,9/20/2024 12:45,9/20/2024 12:41,0,24,0,completed,normal,Unit B
+P100483,12/21/2024,11:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,12/21/2024 11:45,12/21/2024 11:40,35,17,0,completed,normal,Unit C
+P100484,5/26/2024,8:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,5/26/2024 8:45,5/26/2024 8:36,15,21,0,completed,normal,Unit A
+P100485,2/13/2024,13:15,Pediatrics,Dr. Grace Lewis,Pediatrician,2/13/2024 13:15,2/13/2024 13:13,52,18,0,completed,urgent,Unit A
+P100486,9/7/2024,13:30,Pediatrics,Dr. Grace Lewis,Pediatrician,9/7/2024 13:30,9/7/2024 13:29,20,19,0,completed,normal,Unit A
+P100487,5/25/2024,10:00,Pediatrics,Dr. Grace Lewis,Pediatrician,5/25/2024 10:00,5/25/2024 10:02,21,29,0,completed,normal,Unit B
+P100488,7/28/2024,14:15,General Medicine,Dr. Irene Martinez,General Practitioner,7/28/2024 14:15,7/28/2024 14:43,25,26,0,completed,normal,Unit B
+P100489,2/9/2024,14:45,General Medicine,Dr. Irene Martinez,General Practitioner,2/9/2024 14:45,2/9/2024 14:19,16,19,0,completed,normal,Unit B
+P100490,8/15/2024,15:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,8/15/2024 15:30,8/15/2024 15:42,7,20,0,completed,urgent,Unit C
+P100491,3/31/2024,14:15,Pediatrics,Dr. Grace Lewis,Pediatrician,3/31/2024 14:15,3/31/2024 13:44,30,26,0,completed,normal,Unit A
+P100492,8/2/2024,16:00,Cardiology,Dr. Bob Johnson,Cardiologist,8/2/2024 16:00,8/2/2024 16:00,22,25,0,completed,normal,Unit B
+P100493,5/12/2024,10:30,Neurology,Dr. Daniel Kim,Neurologist,5/12/2024 10:30,5/12/2024 10:30,11,20,0,completed,normal,Unit C
+P100494,7/11/2024,9:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/11/2024 9:15,7/11/2024 9:11,9,17,0,completed,normal,Unit C
+P100495,8/27/2024,14:30,General Medicine,Dr. Jason Lee,General Practitioner,8/27/2024 14:30,8/27/2024 14:17,0,16,0,completed,normal,Unit A
+P100496,9/2/2024,14:00,Cardiology,Dr. Alice Smith,Cardiologist,9/2/2024 14:00,9/2/2024 14:01,7,14,1,no_show,normal,Unit A
+P100497,7/31/2024,8:30,Cardiology,Dr. Alice Smith,Cardiologist,7/31/2024 8:30,7/31/2024 8:30,12,30,0,completed,normal,Unit B
+P100498,10/7/2024,15:15,Pediatrics,Dr. Grace Lewis,Pediatrician,10/7/2024 15:15,10/7/2024 15:13,0,23,0,completed,normal,Unit C
+P100499,3/14/2024,16:15,Pediatrics,Dr. Grace Lewis,Pediatrician,3/14/2024 16:15,3/14/2024 16:15,3,13,0,completed,normal,Unit A
+P100500,12/29/2024,11:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,12/29/2024 11:30,12/29/2024 11:20,13,17,1,no_show,normal,Unit B
+P100501,9/7/2024,13:45,Pediatrics,Dr. Henry Patel,Pediatrician,9/7/2024 13:45,9/7/2024 13:44,37,13,0,completed,normal,Unit C
+P100502,10/13/2024,12:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,10/13/2024 12:15,10/13/2024 12:18,15,20,0,completed,normal,Unit B
+P100503,6/5/2024,10:30,General Medicine,Dr. Irene Martinez,General Practitioner,6/5/2024 10:30,6/5/2024 10:25,15,23,0,completed,normal,Unit B
+P100504,10/7/2024,9:30,Oncology,Dr. Frank Wright,Oncologist,10/7/2024 9:30,10/7/2024 9:32,25,24,0,completed,urgent,Unit C
+P100505,10/22/2024,15:45,Pediatrics,Dr. Grace Lewis,Pediatrician,10/22/2024 15:45,10/22/2024 15:59,27,15,0,completed,normal,Unit A
+P100506,9/13/2024,12:45,Cardiology,Dr. Bob Johnson,Cardiologist,9/13/2024 12:45,9/13/2024 12:51,7,17,0,cancelled,normal,Unit B
+P100507,1/16/2024,11:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,1/16/2024 11:15,1/16/2024 11:15,32,16,0,cancelled,normal,Unit A
+P100508,6/22/2024,9:00,Oncology,Dr. Emma Clark,Oncologist,6/22/2024 9:00,6/22/2024 9:06,6,23,0,cancelled,normal,Unit B
+P100509,12/26/2024,11:30,Pediatrics,Dr. Henry Patel,Pediatrician,12/26/2024 11:30,12/26/2024 11:27,26,13,0,cancelled,normal,Unit C
+P100510,11/24/2024,13:30,Cardiology,Dr. Bob Johnson,Cardiologist,11/24/2024 13:30,11/24/2024 13:41,11,21,0,completed,normal,Unit C
+P100511,10/27/2024,10:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,10/27/2024 10:30,10/27/2024 10:26,25,20,0,completed,urgent,Unit B
+P100512,10/23/2024,14:45,Neurology,Dr. Daniel Kim,Neurologist,10/23/2024 14:45,10/23/2024 14:45,8,19,0,completed,normal,Unit A
+P100513,2/15/2024,9:45,Pediatrics,Dr. Grace Lewis,Pediatrician,2/15/2024 9:45,2/15/2024 9:37,18,14,0,completed,normal,Unit C
+P100514,3/26/2024,8:45,Pediatrics,Dr. Grace Lewis,Pediatrician,3/26/2024 8:45,3/26/2024 8:40,3,16,0,completed,normal,Unit A
+P100515,10/9/2024,12:30,Cardiology,Dr. Bob Johnson,Cardiologist,10/9/2024 12:30,10/9/2024 12:29,30,26,0,completed,normal,Unit C
+P100516,7/11/2024,13:15,Oncology,Dr. Emma Clark,Oncologist,7/11/2024 13:15,7/11/2024 13:08,0,20,0,completed,normal,Unit B
+P100517,4/18/2024,14:00,Pediatrics,Dr. Grace Lewis,Pediatrician,4/18/2024 14:00,4/18/2024 13:50,6,25,1,no_show,normal,Unit A
+P100518,3/31/2024,9:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,3/31/2024 9:30,3/31/2024 9:30,13,20,1,no_show,normal,Unit A
+P100519,2/15/2024,15:15,Oncology,Dr. Emma Clark,Oncologist,2/15/2024 15:15,2/15/2024 15:13,20,24,0,completed,normal,Unit A
+P100520,2/9/2024,16:30,Cardiology,Dr. Bob Johnson,Cardiologist,2/9/2024 16:30,2/9/2024 16:42,16,20,0,completed,normal,Unit B
+P100521,8/21/2024,8:45,Oncology,Dr. Emma Clark,Oncologist,8/21/2024 8:45,8/21/2024 8:52,28,16,0,cancelled,urgent,Unit A
+P100522,7/29/2024,12:00,Neurology,Dr. Carol Lee,Neurologist,7/29/2024 12:00,7/29/2024 12:05,16,32,0,completed,normal,Unit B
+P100523,10/18/2024,11:45,Oncology,Dr. Emma Clark,Oncologist,10/18/2024 11:45,10/18/2024 11:45,9,18,0,completed,normal,Unit A
+P100524,8/4/2024,13:30,General Medicine,Dr. Jason Lee,General Practitioner,8/4/2024 13:30,8/4/2024 13:46,29,19,0,completed,normal,Unit A
+P100525,11/10/2024,13:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,11/10/2024 13:00,11/10/2024 12:55,42,27,0,completed,normal,Unit B
+P100526,8/2/2024,15:45,Oncology,Dr. Frank Wright,Oncologist,8/2/2024 15:45,8/2/2024 15:40,12,22,0,completed,urgent,Unit B
+P100527,4/3/2024,8:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/3/2024 8:30,4/3/2024 8:14,17,16,0,completed,urgent,Unit A
+P100528,12/25/2024,14:45,Oncology,Dr. Emma Clark,Oncologist,12/25/2024 14:45,12/25/2024 14:51,9,22,0,cancelled,normal,Unit B
+P100529,10/12/2024,9:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,10/12/2024 9:00,10/12/2024 8:51,9,15,0,completed,normal,Unit C
+P100530,12/26/2024,13:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,12/26/2024 13:15,12/26/2024 13:35,17,27,0,completed,normal,Unit C
+P100531,5/11/2024,13:00,Cardiology,Dr. Alice Smith,Cardiologist,5/11/2024 13:00,5/11/2024 13:03,6,23,0,completed,normal,Unit C
+P100532,2/18/2024,11:30,General Medicine,Dr. Irene Martinez,General Practitioner,2/18/2024 11:30,2/18/2024 11:33,28,25,0,completed,normal,Unit A
+P100533,7/13/2024,9:45,Oncology,Dr. Emma Clark,Oncologist,7/13/2024 9:45,7/13/2024 9:36,3,19,0,completed,normal,Unit B
+P100534,4/12/2024,14:15,Oncology,Dr. Emma Clark,Oncologist,4/12/2024 14:15,4/12/2024 14:10,14,16,1,no_show,urgent,Unit C
+P100535,11/5/2024,10:15,General Medicine,Dr. Jason Lee,General Practitioner,11/5/2024 10:15,11/5/2024 9:56,30,25,0,completed,normal,Unit A
+P100536,10/11/2024,16:15,Pediatrics,Dr. Henry Patel,Pediatrician,10/11/2024 16:15,10/11/2024 16:00,10,17,0,completed,normal,Unit C
+P100537,6/24/2024,15:15,General Medicine,Dr. Jason Lee,General Practitioner,6/24/2024 15:15,6/24/2024 15:09,25,25,0,cancelled,normal,Unit C
+P100538,1/25/2024,13:30,Pediatrics,Dr. Henry Patel,Pediatrician,1/25/2024 13:30,1/25/2024 13:30,39,27,0,completed,normal,Unit C
+P100539,4/9/2024,10:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/9/2024 10:00,4/9/2024 10:05,25,23,0,completed,urgent,Unit C
+P100540,2/13/2024,11:30,Cardiology,Dr. Alice Smith,Cardiologist,2/13/2024 11:30,2/13/2024 11:38,36,23,0,completed,normal,Unit B
+P100541,2/14/2024,12:15,General Medicine,Dr. Irene Martinez,General Practitioner,2/14/2024 12:15,2/14/2024 12:00,25,25,0,completed,normal,Unit C
+P100542,9/12/2024,14:15,Pediatrics,Dr. Grace Lewis,Pediatrician,9/12/2024 14:15,9/12/2024 14:19,8,32,0,completed,normal,Unit B
+P100543,12/2/2024,16:00,Cardiology,Dr. Alice Smith,Cardiologist,12/2/2024 16:00,12/2/2024 15:53,8,26,0,completed,normal,Unit B
+P100544,5/14/2024,14:15,Neurology,Dr. Carol Lee,Neurologist,5/14/2024 14:15,5/14/2024 14:06,7,19,0,completed,normal,Unit A
+P100545,4/13/2024,16:15,Cardiology,Dr. Bob Johnson,Cardiologist,4/13/2024 16:15,4/13/2024 16:21,0,16,1,no_show,normal,Unit A
+P100546,11/22/2024,9:45,Pediatrics,Dr. Henry Patel,Pediatrician,11/22/2024 9:45,11/22/2024 9:50,20,22,0,completed,normal,Unit C
+P100547,10/1/2024,14:15,Cardiology,Dr. Alice Smith,Cardiologist,10/1/2024 14:15,10/1/2024 14:26,22,21,0,completed,normal,Unit A
+P100548,10/14/2024,9:45,Pediatrics,Dr. Henry Patel,Pediatrician,10/14/2024 9:45,10/14/2024 9:45,10,25,0,completed,normal,Unit C
+P100549,12/6/2024,11:00,Oncology,Dr. Emma Clark,Oncologist,12/6/2024 11:00,12/6/2024 10:56,18,21,0,completed,normal,Unit C
+P100550,11/1/2024,10:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,11/1/2024 10:15,11/1/2024 10:15,34,22,0,completed,normal,Unit C
+P100551,6/19/2024,13:15,Pediatrics,Dr. Grace Lewis,Pediatrician,6/19/2024 13:15,6/19/2024 13:28,16,25,0,completed,normal,Unit C
+P100552,9/24/2024,10:15,Cardiology,Dr. Alice Smith,Cardiologist,9/24/2024 10:15,9/24/2024 10:03,13,19,0,completed,normal,Unit A
+P100553,6/13/2024,14:00,Neurology,Dr. Carol Lee,Neurologist,6/13/2024 14:00,6/13/2024 14:06,26,23,0,completed,normal,Unit A
+P100554,11/1/2024,11:15,General Medicine,Dr. Jason Lee,General Practitioner,11/1/2024 11:15,11/1/2024 11:15,24,12,1,no_show,urgent,Unit C
+P100555,1/6/2024,13:15,Pediatrics,Dr. Henry Patel,Pediatrician,1/6/2024 13:15,1/6/2024 13:10,35,12,0,completed,normal,Unit B
+P100556,4/30/2024,11:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/30/2024 11:30,4/30/2024 11:29,20,17,0,completed,urgent,Unit A
+P100557,8/17/2024,8:15,Neurology,Dr. Carol Lee,Neurologist,8/17/2024 8:15,8/17/2024 8:05,27,17,0,completed,normal,Unit A
+P100558,9/7/2024,12:15,General Medicine,Dr. Irene Martinez,General Practitioner,9/7/2024 12:15,9/7/2024 12:22,21,16,0,completed,normal,Unit C
+P100559,8/4/2024,10:45,Pediatrics,Dr. Grace Lewis,Pediatrician,8/4/2024 10:45,8/4/2024 11:02,5,23,0,completed,normal,Unit C
+P100560,4/10/2024,13:30,Pediatrics,Dr. Henry Patel,Pediatrician,4/10/2024 13:30,4/10/2024 13:20,19,22,0,completed,normal,Unit A
+P100561,4/15/2024,16:15,Oncology,Dr. Emma Clark,Oncologist,4/15/2024 16:15,4/15/2024 16:19,11,15,0,completed,normal,Unit C
+P100562,10/13/2024,10:45,Oncology,Dr. Frank Wright,Oncologist,10/13/2024 10:45,10/13/2024 10:45,30,24,0,completed,normal,Unit B
+P100563,7/17/2024,13:00,Neurology,Dr. Carol Lee,Neurologist,7/17/2024 13:00,7/17/2024 12:58,13,22,0,completed,normal,Unit B
+P100564,12/21/2024,11:00,General Medicine,Dr. Irene Martinez,General Practitioner,12/21/2024 11:00,12/21/2024 10:50,10,15,1,no_show,normal,Unit A
+P100565,2/15/2024,15:30,Neurology,Dr. Carol Lee,Neurologist,2/15/2024 15:30,2/15/2024 15:30,0,18,0,completed,normal,Unit C
+P100566,3/9/2024,11:15,General Medicine,Dr. Jason Lee,General Practitioner,3/9/2024 11:15,3/9/2024 11:21,10,19,0,completed,normal,Unit A
+P100567,2/15/2024,9:00,Neurology,Dr. Daniel Kim,Neurologist,2/15/2024 9:00,2/15/2024 9:06,16,22,0,completed,urgent,Unit A
+P100568,8/18/2024,12:00,General Medicine,Dr. Irene Martinez,General Practitioner,8/18/2024 12:00,8/18/2024 12:03,29,20,0,completed,normal,Unit B
+P100569,9/29/2024,13:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,9/29/2024 13:45,9/29/2024 13:44,27,19,0,completed,normal,Unit B
+P100570,7/17/2024,15:00,Neurology,Dr. Daniel Kim,Neurologist,7/17/2024 15:00,7/17/2024 15:04,43,13,0,completed,normal,Unit C
+P100571,12/16/2024,14:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,12/16/2024 14:30,12/16/2024 14:38,16,23,0,completed,normal,Unit B
+P100572,12/17/2024,14:30,Neurology,Dr. Daniel Kim,Neurologist,12/17/2024 14:30,12/17/2024 14:33,28,15,0,completed,normal,Unit A
+P100573,9/2/2024,15:45,Neurology,Dr. Carol Lee,Neurologist,9/2/2024 15:45,9/2/2024 15:45,17,22,0,completed,urgent,Unit C
+P100574,10/6/2024,16:45,Cardiology,Dr. Bob Johnson,Cardiologist,10/6/2024 16:45,10/6/2024 17:01,30,22,0,completed,normal,Unit A
+P100575,4/22/2024,16:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,4/22/2024 16:15,4/22/2024 16:24,9,27,0,completed,normal,Unit C
+P100576,5/1/2024,14:00,Neurology,Dr. Daniel Kim,Neurologist,5/1/2024 14:00,5/1/2024 14:25,23,12,0,completed,urgent,Unit A
+P100577,5/5/2024,16:45,Oncology,Dr. Frank Wright,Oncologist,5/5/2024 16:45,5/5/2024 16:51,36,28,0,completed,urgent,Unit B
+P100578,12/24/2024,12:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,12/24/2024 12:15,12/24/2024 12:18,29,11,0,cancelled,urgent,Unit A
+P100579,2/17/2024,15:30,Neurology,Dr. Carol Lee,Neurologist,2/17/2024 15:30,2/17/2024 15:15,17,13,0,completed,normal,Unit A
+P100580,3/3/2024,9:45,Oncology,Dr. Emma Clark,Oncologist,3/3/2024 9:45,3/3/2024 9:45,18,21,0,completed,normal,Unit C
+P100581,9/25/2024,13:30,General Medicine,Dr. Jason Lee,General Practitioner,9/25/2024 13:30,9/25/2024 13:24,28,22,0,completed,normal,Unit B
+P100582,7/4/2024,14:15,Pediatrics,Dr. Henry Patel,Pediatrician,7/4/2024 14:15,7/4/2024 14:17,31,29,0,completed,normal,Unit B
+P100583,2/11/2024,9:15,Oncology,Dr. Frank Wright,Oncologist,2/11/2024 9:15,2/11/2024 9:21,6,18,0,completed,normal,Unit B
+P100584,5/2/2024,13:30,General Medicine,Dr. Irene Martinez,General Practitioner,5/2/2024 13:30,5/2/2024 13:24,0,26,0,completed,normal,Unit B
+P100585,8/22/2024,13:00,Pediatrics,Dr. Grace Lewis,Pediatrician,8/22/2024 13:00,8/22/2024 13:01,9,5,0,cancelled,urgent,Unit B
+P100586,12/16/2024,10:15,Cardiology,Dr. Alice Smith,Cardiologist,12/16/2024 10:15,12/16/2024 10:25,21,24,0,completed,normal,Unit A
+P100587,9/10/2024,14:45,Neurology,Dr. Daniel Kim,Neurologist,9/10/2024 14:45,9/10/2024 14:56,2,20,0,completed,normal,Unit C
+P100588,6/21/2024,9:00,Pediatrics,Dr. Grace Lewis,Pediatrician,6/21/2024 9:00,6/21/2024 8:43,27,26,0,completed,normal,Unit A
+P100589,9/16/2024,16:15,Oncology,Dr. Frank Wright,Oncologist,9/16/2024 16:15,9/16/2024 16:08,14,22,0,cancelled,normal,Unit B
+P100590,7/14/2024,15:30,Neurology,Dr. Daniel Kim,Neurologist,7/14/2024 15:30,7/14/2024 15:33,0,23,0,completed,normal,Unit A
+P100591,10/12/2024,15:45,General Medicine,Dr. Irene Martinez,General Practitioner,10/12/2024 15:45,10/12/2024 15:44,18,23,0,cancelled,normal,Unit B
+P100592,7/20/2024,10:30,Pediatrics,Dr. Henry Patel,Pediatrician,7/20/2024 10:30,7/20/2024 10:43,10,12,0,completed,normal,Unit A
+P100593,10/27/2024,10:15,Cardiology,Dr. Bob Johnson,Cardiologist,10/27/2024 10:15,10/27/2024 10:08,31,20,1,no_show,urgent,Unit B
+P100594,11/7/2024,10:30,Pediatrics,Dr. Grace Lewis,Pediatrician,11/7/2024 10:30,11/7/2024 10:28,17,22,0,completed,normal,Unit A
+P100595,10/18/2024,9:15,Pediatrics,Dr. Henry Patel,Pediatrician,10/18/2024 9:15,10/18/2024 9:06,14,15,0,completed,normal,Unit C
+P100596,7/4/2024,12:45,Neurology,Dr. Carol Lee,Neurologist,7/4/2024 12:45,7/4/2024 12:47,17,22,0,completed,normal,Unit A
+P100597,12/25/2024,12:00,Cardiology,Dr. Alice Smith,Cardiologist,12/25/2024 12:00,12/25/2024 12:09,56,17,0,completed,normal,Unit A
+P100598,9/26/2024,12:15,Oncology,Dr. Emma Clark,Oncologist,9/26/2024 12:15,9/26/2024 12:24,10,13,0,completed,normal,Unit C
+P100599,4/1/2024,15:30,Cardiology,Dr. Bob Johnson,Cardiologist,4/1/2024 15:30,4/1/2024 15:39,30,20,0,completed,normal,Unit B
+P100600,9/6/2024,16:15,Oncology,Dr. Frank Wright,Oncologist,9/6/2024 16:15,9/6/2024 16:22,16,27,0,completed,normal,Unit C
+P100601,8/5/2024,13:30,Cardiology,Dr. Alice Smith,Cardiologist,8/5/2024 13:30,8/5/2024 13:24,0,27,0,completed,normal,Unit A
+P100602,12/1/2024,8:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,12/1/2024 8:00,12/1/2024 7:48,27,17,0,cancelled,urgent,Unit B
+P100603,9/24/2024,9:30,Pediatrics,Dr. Henry Patel,Pediatrician,9/24/2024 9:30,9/24/2024 9:37,31,30,0,completed,normal,Unit C
+P100604,4/4/2024,9:15,Cardiology,Dr. Alice Smith,Cardiologist,4/4/2024 9:15,4/4/2024 9:26,17,23,0,completed,normal,Unit A
+P100605,10/1/2024,15:45,General Medicine,Dr. Irene Martinez,General Practitioner,10/1/2024 15:45,10/1/2024 15:40,14,29,0,completed,normal,Unit C
+P100606,1/20/2024,15:45,Cardiology,Dr. Bob Johnson,Cardiologist,1/20/2024 15:45,1/20/2024 15:47,21,23,0,completed,normal,Unit A
+P100607,4/12/2024,9:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/12/2024 9:45,4/12/2024 10:02,44,14,0,completed,urgent,Unit B
+P100608,6/3/2024,8:00,Cardiology,Dr. Alice Smith,Cardiologist,6/3/2024 8:00,6/3/2024 7:54,13,12,1,no_show,urgent,Unit A
+P100609,3/4/2024,8:00,Cardiology,Dr. Alice Smith,Cardiologist,3/4/2024 8:00,3/4/2024 7:42,0,6,0,completed,normal,Unit B
+P100610,1/19/2024,9:00,General Medicine,Dr. Irene Martinez,General Practitioner,1/19/2024 9:00,1/19/2024 8:38,23,17,0,completed,normal,Unit B
+P100611,9/29/2024,9:30,Pediatrics,Dr. Henry Patel,Pediatrician,9/29/2024 9:30,9/29/2024 9:42,12,28,0,completed,normal,Unit C
+P100612,7/7/2024,11:15,Pediatrics,Dr. Grace Lewis,Pediatrician,7/7/2024 11:15,7/7/2024 11:30,27,19,0,completed,normal,Unit A
+P100613,7/1/2024,11:00,Neurology,Dr. Carol Lee,Neurologist,7/1/2024 11:00,7/1/2024 10:46,10,19,0,completed,normal,Unit C
+P100614,4/23/2024,14:15,Neurology,Dr. Daniel Kim,Neurologist,4/23/2024 14:15,4/23/2024 14:11,0,21,0,completed,normal,Unit A
+P100615,10/12/2024,8:15,General Medicine,Dr. Irene Martinez,General Practitioner,10/12/2024 8:15,10/12/2024 8:02,19,24,0,completed,normal,Unit B
+P100616,3/13/2024,11:45,Neurology,Dr. Daniel Kim,Neurologist,3/13/2024 11:45,3/13/2024 11:49,0,24,1,no_show,urgent,Unit A
+P100617,1/3/2024,13:45,Cardiology,Dr. Bob Johnson,Cardiologist,1/3/2024 13:45,1/3/2024 13:55,18,11,0,completed,normal,Unit B
+P100618,5/24/2024,11:30,Pediatrics,Dr. Henry Patel,Pediatrician,5/24/2024 11:30,5/24/2024 11:24,34,22,0,completed,normal,Unit B
+P100619,12/21/2024,12:15,Cardiology,Dr. Alice Smith,Cardiologist,12/21/2024 12:15,12/21/2024 12:20,10,31,0,completed,normal,Unit C
+P100620,3/19/2024,9:45,Cardiology,Dr. Bob Johnson,Cardiologist,3/19/2024 9:45,3/19/2024 9:40,24,16,0,completed,urgent,Unit A
+P100621,6/3/2024,12:15,Cardiology,Dr. Bob Johnson,Cardiologist,6/3/2024 12:15,6/3/2024 12:21,13,19,0,completed,normal,Unit B
+P100622,6/27/2024,14:15,Pediatrics,Dr. Grace Lewis,Pediatrician,6/27/2024 14:15,6/27/2024 14:19,41,23,0,completed,normal,Unit B
+P100623,11/29/2024,9:15,Oncology,Dr. Emma Clark,Oncologist,11/29/2024 9:15,11/29/2024 9:17,16,30,0,completed,normal,Unit B
+P100624,12/16/2024,12:45,Oncology,Dr. Frank Wright,Oncologist,12/16/2024 12:45,12/16/2024 12:34,6,24,0,completed,normal,Unit C
+P100625,1/9/2024,9:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,1/9/2024 9:15,1/9/2024 9:10,20,25,0,completed,normal,Unit A
+P100626,3/8/2024,9:15,Neurology,Dr. Daniel Kim,Neurologist,3/8/2024 9:15,3/8/2024 9:32,20,19,0,completed,normal,Unit B
+P100627,6/13/2024,9:30,Cardiology,Dr. Bob Johnson,Cardiologist,6/13/2024 9:30,6/13/2024 9:23,21,13,0,completed,normal,Unit A
+P100628,1/25/2024,9:30,General Medicine,Dr. Irene Martinez,General Practitioner,1/25/2024 9:30,1/25/2024 9:28,13,24,0,completed,normal,Unit B
+P100629,9/11/2024,10:45,Oncology,Dr. Frank Wright,Oncologist,9/11/2024 10:45,9/11/2024 10:53,0,20,0,completed,urgent,Unit B
+P100630,11/24/2024,16:45,Pediatrics,Dr. Henry Patel,Pediatrician,11/24/2024 16:45,11/24/2024 17:04,16,18,0,completed,urgent,Unit C
+P100631,12/7/2024,12:45,General Medicine,Dr. Irene Martinez,General Practitioner,12/7/2024 12:45,12/7/2024 12:39,9,19,0,completed,normal,Unit B
+P100632,4/28/2024,15:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/28/2024 15:00,4/28/2024 15:02,9,18,0,completed,normal,Unit C
+P100633,3/28/2024,11:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,3/28/2024 11:30,3/28/2024 11:43,0,14,0,completed,normal,Unit C
+P100634,1/30/2024,16:15,Oncology,Dr. Emma Clark,Oncologist,1/30/2024 16:15,1/30/2024 15:49,4,24,0,completed,normal,Unit B
+P100635,12/29/2024,16:00,Pediatrics,Dr. Henry Patel,Pediatrician,12/29/2024 16:00,12/29/2024 16:17,14,24,0,completed,normal,Unit C
+P100636,8/15/2024,16:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,8/15/2024 16:00,8/15/2024 16:08,22,15,0,completed,normal,Unit C
+P100637,2/19/2024,13:45,Pediatrics,Dr. Grace Lewis,Pediatrician,2/19/2024 13:45,2/19/2024 13:45,0,16,0,completed,normal,Unit B
+P100638,4/11/2024,8:15,Oncology,Dr. Frank Wright,Oncologist,4/11/2024 8:15,4/11/2024 8:24,17,19,0,completed,normal,Unit C
+P100639,2/20/2024,15:15,Pediatrics,Dr. Henry Patel,Pediatrician,2/20/2024 15:15,2/20/2024 15:15,25,19,0,cancelled,normal,Unit B
+P100640,7/19/2024,13:45,Oncology,Dr. Emma Clark,Oncologist,7/19/2024 13:45,7/19/2024 13:45,46,19,0,completed,normal,Unit A
+P100641,4/24/2024,9:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/24/2024 9:00,4/24/2024 8:56,29,26,0,completed,normal,Unit A
+P100642,5/24/2024,14:30,Oncology,Dr. Emma Clark,Oncologist,5/24/2024 14:30,5/24/2024 14:40,12,25,0,completed,normal,Unit B
+P100643,8/14/2024,12:30,Cardiology,Dr. Alice Smith,Cardiologist,8/14/2024 12:30,8/14/2024 12:27,11,14,0,completed,normal,Unit C
+P100644,8/4/2024,11:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,8/4/2024 11:15,8/4/2024 11:20,62,19,0,completed,normal,Unit A
+P100645,9/12/2024,16:30,General Medicine,Dr. Irene Martinez,General Practitioner,9/12/2024 16:30,9/12/2024 16:36,4,14,0,completed,normal,Unit C
+P100646,1/20/2024,10:45,Cardiology,Dr. Alice Smith,Cardiologist,1/20/2024 10:45,1/20/2024 10:46,10,11,0,completed,normal,Unit B
+P100647,2/28/2024,14:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,2/28/2024 14:15,2/28/2024 14:13,6,30,0,completed,normal,Unit C
+P100648,9/5/2024,13:30,General Medicine,Dr. Jason Lee,General Practitioner,9/5/2024 13:30,9/5/2024 13:30,27,30,0,completed,urgent,Unit A
+P100649,1/2/2024,16:30,General Medicine,Dr. Jason Lee,General Practitioner,1/2/2024 16:30,1/2/2024 16:31,10,33,0,completed,normal,Unit C
+P100650,4/28/2024,15:00,Pediatrics,Dr. Grace Lewis,Pediatrician,4/28/2024 15:00,4/28/2024 14:58,0,11,0,completed,normal,Unit A
+P100651,12/1/2024,14:00,Pediatrics,Dr. Henry Patel,Pediatrician,12/1/2024 14:00,12/1/2024 14:06,10,26,0,completed,normal,Unit A
+P100652,3/15/2024,9:00,Neurology,Dr. Daniel Kim,Neurologist,3/15/2024 9:00,3/15/2024 9:20,9,19,0,completed,normal,Unit B
+P100653,2/6/2024,11:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,2/6/2024 11:00,2/6/2024 11:03,17,17,0,cancelled,normal,Unit C
+P100654,7/1/2024,12:30,General Medicine,Dr. Irene Martinez,General Practitioner,7/1/2024 12:30,7/1/2024 12:51,14,17,0,completed,urgent,Unit A
+P100655,8/31/2024,10:00,General Medicine,Dr. Jason Lee,General Practitioner,8/31/2024 10:00,8/31/2024 9:52,24,23,0,completed,normal,Unit C
+P100656,10/20/2024,9:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,10/20/2024 9:00,10/20/2024 8:47,21,30,0,completed,normal,Unit B
+P100657,8/6/2024,11:45,Pediatrics,Dr. Henry Patel,Pediatrician,8/6/2024 11:45,8/6/2024 11:36,21,19,0,completed,normal,Unit C
+P100658,5/10/2024,11:00,Neurology,Dr. Daniel Kim,Neurologist,5/10/2024 11:00,5/10/2024 11:09,22,18,0,completed,normal,Unit B
+P100659,5/5/2024,12:30,Neurology,Dr. Carol Lee,Neurologist,5/5/2024 12:30,5/5/2024 12:30,30,21,0,completed,normal,Unit A
+P100660,12/26/2024,16:45,Neurology,Dr. Daniel Kim,Neurologist,12/26/2024 16:45,12/26/2024 16:57,12,21,1,no_show,normal,Unit B
+P100661,5/18/2024,9:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,5/18/2024 9:45,5/18/2024 9:55,23,23,1,no_show,normal,Unit C
+P100662,6/3/2024,12:00,Oncology,Dr. Emma Clark,Oncologist,6/3/2024 12:00,6/3/2024 12:16,20,27,0,completed,normal,Unit A
+P100663,3/31/2024,8:00,Oncology,Dr. Emma Clark,Oncologist,3/31/2024 8:00,3/31/2024 8:01,19,25,0,completed,normal,Unit B
+P100664,8/16/2024,15:30,Pediatrics,Dr. Grace Lewis,Pediatrician,8/16/2024 15:30,8/16/2024 15:36,17,27,0,completed,normal,Unit B
+P100665,8/4/2024,9:30,General Medicine,Dr. Jason Lee,General Practitioner,8/4/2024 9:30,8/4/2024 9:30,0,19,0,completed,normal,Unit B
+P100666,8/17/2024,14:30,Pediatrics,Dr. Henry Patel,Pediatrician,8/17/2024 14:30,8/17/2024 14:30,20,16,0,completed,normal,Unit B
+P100667,4/29/2024,9:45,General Medicine,Dr. Jason Lee,General Practitioner,4/29/2024 9:45,4/29/2024 9:45,26,31,0,completed,normal,Unit C
+P100668,8/21/2024,12:15,Neurology,Dr. Carol Lee,Neurologist,8/21/2024 12:15,8/21/2024 12:10,22,22,1,no_show,normal,Unit B
+P100669,2/21/2024,15:15,Pediatrics,Dr. Henry Patel,Pediatrician,2/21/2024 15:15,2/21/2024 15:01,4,22,0,completed,normal,Unit B
+P100670,10/9/2024,8:00,Pediatrics,Dr. Grace Lewis,Pediatrician,10/9/2024 8:00,10/9/2024 8:10,25,26,0,completed,normal,Unit C
+P100671,4/19/2024,13:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/19/2024 13:15,4/19/2024 13:29,4,19,0,completed,normal,Unit C
+P100672,8/13/2024,15:45,Cardiology,Dr. Alice Smith,Cardiologist,8/13/2024 15:45,8/13/2024 15:45,16,6,0,completed,normal,Unit A
+P100673,1/8/2024,11:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,1/8/2024 11:15,1/8/2024 11:15,29,18,0,completed,normal,Unit B
+P100674,7/18/2024,12:45,Pediatrics,Dr. Henry Patel,Pediatrician,7/18/2024 12:45,7/18/2024 12:50,38,18,0,completed,normal,Unit C
+P100675,2/19/2024,11:15,Neurology,Dr. Daniel Kim,Neurologist,2/19/2024 11:15,2/19/2024 11:15,27,12,0,completed,normal,Unit A
+P100676,6/8/2024,10:00,Neurology,Dr. Carol Lee,Neurologist,6/8/2024 10:00,6/8/2024 9:57,24,17,0,completed,normal,Unit C
+P100677,4/7/2024,13:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/7/2024 13:30,4/7/2024 13:25,17,15,0,completed,normal,Unit C
+P100678,2/2/2024,13:45,Cardiology,Dr. Alice Smith,Cardiologist,2/2/2024 13:45,2/2/2024 13:32,18,23,0,completed,normal,Unit B
+P100679,1/25/2024,11:30,Neurology,Dr. Carol Lee,Neurologist,1/25/2024 11:30,1/25/2024 11:35,22,26,0,completed,normal,Unit B
+P100680,10/14/2024,10:00,Oncology,Dr. Emma Clark,Oncologist,10/14/2024 10:00,10/14/2024 9:53,15,19,0,completed,normal,Unit C
+P100681,4/26/2024,13:15,Oncology,Dr. Emma Clark,Oncologist,4/26/2024 13:15,4/26/2024 13:15,18,21,0,completed,normal,Unit B
+P100682,8/18/2024,10:00,General Medicine,Dr. Irene Martinez,General Practitioner,8/18/2024 10:00,8/18/2024 9:55,15,20,0,completed,urgent,Unit B
+P100683,12/24/2024,16:15,Oncology,Dr. Frank Wright,Oncologist,12/24/2024 16:15,12/24/2024 16:19,30,19,0,completed,normal,Unit B
+P100684,7/31/2024,13:00,General Medicine,Dr. Irene Martinez,General Practitioner,7/31/2024 13:00,7/31/2024 12:53,16,24,0,cancelled,urgent,Unit A
+P100685,7/5/2024,16:00,General Medicine,Dr. Jason Lee,General Practitioner,7/5/2024 16:00,7/5/2024 16:19,9,32,0,completed,urgent,Unit C
+P100686,10/31/2024,11:30,Oncology,Dr. Frank Wright,Oncologist,10/31/2024 11:30,10/31/2024 11:27,17,24,0,completed,normal,Unit C
+P100687,10/30/2024,16:15,Neurology,Dr. Carol Lee,Neurologist,10/30/2024 16:15,10/30/2024 16:21,10,19,1,no_show,normal,Unit A
+P100688,7/10/2024,14:15,General Medicine,Dr. Jason Lee,General Practitioner,7/10/2024 14:15,7/10/2024 14:02,41,20,1,no_show,normal,Unit B
+P100689,12/20/2024,8:45,General Medicine,Dr. Jason Lee,General Practitioner,12/20/2024 8:45,12/20/2024 8:41,18,15,0,completed,normal,Unit A
+P100690,6/9/2024,13:15,General Medicine,Dr. Jason Lee,General Practitioner,6/9/2024 13:15,6/9/2024 13:26,12,22,0,cancelled,normal,Unit B
+P100691,7/9/2024,16:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/9/2024 16:15,7/9/2024 16:14,12,23,0,completed,normal,Unit B
+P100692,8/29/2024,11:15,General Medicine,Dr. Jason Lee,General Practitioner,8/29/2024 11:15,8/29/2024 11:29,10,23,0,completed,normal,Unit C
+P100693,3/1/2024,15:30,Pediatrics,Dr. Henry Patel,Pediatrician,3/1/2024 15:30,3/1/2024 15:29,7,20,0,completed,urgent,Unit B
+P100694,5/31/2024,14:45,General Medicine,Dr. Irene Martinez,General Practitioner,5/31/2024 14:45,5/31/2024 14:42,17,18,0,completed,normal,Unit B
+P100695,12/8/2024,12:30,Neurology,Dr. Daniel Kim,Neurologist,12/8/2024 12:30,12/8/2024 12:50,21,14,0,completed,urgent,Unit B
+P100696,9/16/2024,16:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,9/16/2024 16:15,9/16/2024 16:15,4,18,0,completed,urgent,Unit A
+P100697,5/1/2024,9:45,Neurology,Dr. Carol Lee,Neurologist,5/1/2024 9:45,5/1/2024 9:42,20,20,0,completed,normal,Unit B
+P100698,9/13/2024,10:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,9/13/2024 10:45,9/13/2024 10:55,15,23,0,completed,urgent,Unit C
+P100699,7/27/2024,10:15,Cardiology,Dr. Bob Johnson,Cardiologist,7/27/2024 10:15,7/27/2024 10:11,16,21,1,no_show,normal,Unit C
+P100700,1/27/2024,10:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,1/27/2024 10:45,1/27/2024 10:44,5,25,0,completed,normal,Unit C
+P100701,2/2/2024,16:30,Oncology,Dr. Frank Wright,Oncologist,2/2/2024 16:30,2/2/2024 16:28,18,14,1,no_show,normal,Unit B
+P100702,7/15/2024,8:45,Pediatrics,Dr. Henry Patel,Pediatrician,7/15/2024 8:45,7/15/2024 8:44,34,24,0,completed,normal,Unit C
+P100703,7/5/2024,16:30,Cardiology,Dr. Bob Johnson,Cardiologist,7/5/2024 16:30,7/5/2024 16:42,28,18,0,completed,normal,Unit C
+P100704,10/22/2024,8:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,10/22/2024 8:30,10/22/2024 8:46,38,20,0,completed,urgent,Unit A
+P100705,2/11/2024,13:00,Neurology,Dr. Daniel Kim,Neurologist,2/11/2024 13:00,2/11/2024 13:01,1,19,0,completed,normal,Unit A
+P100706,4/30/2024,9:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,4/30/2024 9:30,4/30/2024 9:26,16,11,0,completed,normal,Unit B
+P100707,11/12/2024,8:00,Oncology,Dr. Emma Clark,Oncologist,11/12/2024 8:00,11/12/2024 7:50,16,15,0,completed,normal,Unit A
+P100708,10/12/2024,9:30,Cardiology,Dr. Bob Johnson,Cardiologist,10/12/2024 9:30,10/12/2024 9:27,3,13,0,completed,urgent,Unit A
+P100709,4/2/2024,15:15,General Medicine,Dr. Jason Lee,General Practitioner,4/2/2024 15:15,4/2/2024 15:05,17,32,0,completed,normal,Unit C
+P100710,9/17/2024,13:30,Oncology,Dr. Emma Clark,Oncologist,9/17/2024 13:30,9/17/2024 13:28,14,13,0,completed,normal,Unit C
+P100711,10/21/2024,10:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,10/21/2024 10:45,10/21/2024 10:32,13,21,0,completed,normal,Unit B
+P100712,7/24/2024,13:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/24/2024 13:30,7/24/2024 13:23,13,20,0,completed,normal,Unit C
+P100713,8/22/2024,8:15,General Medicine,Dr. Irene Martinez,General Practitioner,8/22/2024 8:15,8/22/2024 8:34,25,24,0,completed,normal,Unit C
+P100714,6/6/2024,13:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,6/6/2024 13:45,6/6/2024 13:42,29,19,0,completed,normal,Unit A
+P100715,5/2/2024,14:00,Pediatrics,Dr. Grace Lewis,Pediatrician,5/2/2024 14:00,5/2/2024 14:14,4,25,0,completed,normal,Unit C
+P100716,1/30/2024,14:00,Neurology,Dr. Daniel Kim,Neurologist,1/30/2024 14:00,1/30/2024 14:05,28,12,0,completed,normal,Unit C
+P100717,5/8/2024,12:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,5/8/2024 12:00,5/8/2024 11:49,30,14,0,completed,normal,Unit B
+P100718,4/5/2024,12:00,Neurology,Dr. Daniel Kim,Neurologist,4/5/2024 12:00,4/5/2024 11:57,6,22,0,cancelled,normal,Unit C
+P100719,11/2/2024,11:15,Oncology,Dr. Emma Clark,Oncologist,11/2/2024 11:15,11/2/2024 10:59,0,19,0,completed,normal,Unit C
+P100720,6/22/2024,10:30,Oncology,Dr. Frank Wright,Oncologist,6/22/2024 10:30,6/22/2024 10:44,22,20,0,completed,normal,Unit B
+P100721,5/7/2024,11:45,Cardiology,Dr. Alice Smith,Cardiologist,5/7/2024 11:45,5/7/2024 11:59,38,19,1,no_show,normal,Unit A
+P100722,7/29/2024,12:45,Oncology,Dr. Frank Wright,Oncologist,7/29/2024 12:45,7/29/2024 12:41,4,16,0,completed,normal,Unit C
+P100723,4/2/2024,9:15,Neurology,Dr. Carol Lee,Neurologist,4/2/2024 9:15,4/2/2024 9:11,17,24,1,no_show,normal,Unit A
+P100724,10/12/2024,16:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,10/12/2024 16:45,10/12/2024 17:04,25,33,0,completed,normal,Unit A
+P100725,5/16/2024,15:45,General Medicine,Dr. Irene Martinez,General Practitioner,5/16/2024 15:45,5/16/2024 15:43,33,25,0,completed,normal,Unit B
+P100726,12/21/2024,13:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,12/21/2024 13:30,12/21/2024 13:30,37,23,1,no_show,normal,Unit B
+P100727,11/23/2024,14:15,Oncology,Dr. Frank Wright,Oncologist,11/23/2024 14:15,11/23/2024 14:14,33,20,0,completed,normal,Unit A
+P100728,5/13/2024,16:30,Neurology,Dr. Daniel Kim,Neurologist,5/13/2024 16:30,5/13/2024 16:38,10,26,0,completed,normal,Unit B
+P100729,7/14/2024,13:15,Oncology,Dr. Frank Wright,Oncologist,7/14/2024 13:15,7/14/2024 13:20,33,19,0,cancelled,normal,Unit C
+P100730,4/30/2024,13:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/30/2024 13:45,4/30/2024 13:56,24,19,0,cancelled,normal,Unit A
+P100731,8/13/2024,16:15,Cardiology,Dr. Alice Smith,Cardiologist,8/13/2024 16:15,8/13/2024 15:59,20,23,0,completed,normal,Unit B
+P100732,10/8/2024,9:00,General Medicine,Dr. Jason Lee,General Practitioner,10/8/2024 9:00,10/8/2024 8:59,11,33,0,completed,urgent,Unit B
+P100733,1/9/2024,12:30,Cardiology,Dr. Bob Johnson,Cardiologist,1/9/2024 12:30,1/9/2024 12:21,33,18,0,completed,urgent,Unit A
+P100734,2/21/2024,10:30,Oncology,Dr. Emma Clark,Oncologist,2/21/2024 10:30,2/21/2024 10:42,17,24,0,cancelled,normal,Unit B
+P100735,1/12/2024,9:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,1/12/2024 9:30,1/12/2024 9:26,20,24,0,completed,normal,Unit C
+P100736,7/24/2024,10:15,General Medicine,Dr. Irene Martinez,General Practitioner,7/24/2024 10:15,7/24/2024 10:12,11,27,0,completed,normal,Unit A
+P100737,1/7/2024,10:15,Neurology,Dr. Carol Lee,Neurologist,1/7/2024 10:15,1/7/2024 10:11,19,23,0,completed,normal,Unit B
+P100738,6/9/2024,16:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,6/9/2024 16:45,6/9/2024 16:55,6,26,0,completed,normal,Unit C
+P100739,6/4/2024,11:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,6/4/2024 11:15,6/4/2024 11:20,22,16,0,completed,normal,Unit B
+P100740,6/23/2024,8:15,General Medicine,Dr. Irene Martinez,General Practitioner,6/23/2024 8:15,6/23/2024 8:16,11,13,0,completed,normal,Unit A
+P100741,8/8/2024,16:00,Pediatrics,Dr. Grace Lewis,Pediatrician,8/8/2024 16:00,8/8/2024 16:06,15,19,0,completed,urgent,Unit C
+P100742,11/26/2024,13:30,General Medicine,Dr. Jason Lee,General Practitioner,11/26/2024 13:30,11/26/2024 13:27,34,17,0,completed,normal,Unit A
+P100743,9/15/2024,12:00,Cardiology,Dr. Bob Johnson,Cardiologist,9/15/2024 12:00,9/15/2024 12:10,7,8,0,completed,urgent,Unit A
+P100744,4/22/2024,13:45,Pediatrics,Dr. Grace Lewis,Pediatrician,4/22/2024 13:45,4/22/2024 13:36,14,19,1,no_show,normal,Unit C
+P100745,6/22/2024,11:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,6/22/2024 11:00,6/22/2024 10:50,22,26,0,completed,normal,Unit A
+P100746,5/14/2024,11:30,General Medicine,Dr. Jason Lee,General Practitioner,5/14/2024 11:30,5/14/2024 11:36,45,23,0,cancelled,normal,Unit B
+P100747,8/16/2024,15:45,Pediatrics,Dr. Henry Patel,Pediatrician,8/16/2024 15:45,8/16/2024 15:43,8,15,0,cancelled,normal,Unit A
+P100748,1/4/2024,9:45,General Medicine,Dr. Irene Martinez,General Practitioner,1/4/2024 9:45,1/4/2024 10:00,10,29,0,completed,normal,Unit C
+P100749,6/9/2024,10:15,Cardiology,Dr. Alice Smith,Cardiologist,6/9/2024 10:15,6/9/2024 10:13,17,17,0,completed,normal,Unit B
+P100750,11/4/2024,8:15,Oncology,Dr. Emma Clark,Oncologist,11/4/2024 8:15,11/4/2024 8:18,0,21,0,completed,normal,Unit A
+P100751,9/20/2024,12:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,9/20/2024 12:30,9/20/2024 12:26,21,19,0,completed,normal,Unit B
+P100752,9/3/2024,15:30,Oncology,Dr. Frank Wright,Oncologist,9/3/2024 15:30,9/3/2024 15:43,30,18,0,completed,normal,Unit B
+P100753,6/19/2024,14:45,Cardiology,Dr. Bob Johnson,Cardiologist,6/19/2024 14:45,6/19/2024 14:44,38,15,0,completed,normal,Unit B
+P100754,9/8/2024,14:30,Pediatrics,Dr. Henry Patel,Pediatrician,9/8/2024 14:30,9/8/2024 14:35,0,18,1,no_show,normal,Unit B
+P100755,8/12/2024,12:15,General Medicine,Dr. Jason Lee,General Practitioner,8/12/2024 12:15,8/12/2024 12:15,24,21,0,cancelled,normal,Unit C
+P100756,6/21/2024,12:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,6/21/2024 12:15,6/21/2024 12:27,21,18,0,completed,normal,Unit A
+P100757,1/9/2024,10:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,1/9/2024 10:30,1/9/2024 10:22,14,15,0,completed,normal,Unit A
+P100758,12/8/2024,8:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,12/8/2024 8:30,12/8/2024 8:26,28,23,0,completed,normal,Unit B
+P100759,7/14/2024,16:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/14/2024 16:30,7/14/2024 16:33,2,8,0,completed,normal,Unit A
+P100760,1/10/2024,9:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,1/10/2024 9:30,1/10/2024 9:16,6,19,0,completed,normal,Unit C
+P100761,8/30/2024,10:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,8/30/2024 10:30,8/30/2024 10:26,27,13,0,completed,urgent,Unit C
+P100762,9/8/2024,15:00,Cardiology,Dr. Bob Johnson,Cardiologist,9/8/2024 15:00,9/8/2024 15:05,18,13,0,completed,normal,Unit A
+P100763,5/4/2024,10:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,5/4/2024 10:30,5/4/2024 10:44,23,9,0,completed,normal,Unit C
+P100764,3/2/2024,16:30,Oncology,Dr. Emma Clark,Oncologist,3/2/2024 16:30,3/2/2024 16:35,4,25,0,completed,normal,Unit C
+P100765,9/11/2024,12:45,General Medicine,Dr. Irene Martinez,General Practitioner,9/11/2024 12:45,9/11/2024 12:52,0,22,0,completed,normal,Unit C
+P100766,6/20/2024,8:15,Cardiology,Dr. Alice Smith,Cardiologist,6/20/2024 8:15,6/20/2024 8:25,8,12,0,completed,normal,Unit B
+P100767,3/14/2024,15:45,Neurology,Dr. Daniel Kim,Neurologist,3/14/2024 15:45,3/14/2024 15:48,9,26,0,cancelled,normal,Unit C
+P100768,10/18/2024,14:15,Pediatrics,Dr. Grace Lewis,Pediatrician,10/18/2024 14:15,10/18/2024 14:14,23,18,0,completed,normal,Unit B
+P100769,4/8/2024,10:30,Cardiology,Dr. Bob Johnson,Cardiologist,4/8/2024 10:30,4/8/2024 10:28,3,15,0,completed,normal,Unit C
+P100770,9/28/2024,12:15,General Medicine,Dr. Jason Lee,General Practitioner,9/28/2024 12:15,9/28/2024 11:54,12,17,0,completed,normal,Unit C
+P100771,4/23/2024,10:30,Neurology,Dr. Daniel Kim,Neurologist,4/23/2024 10:30,4/23/2024 10:39,3,21,0,completed,normal,Unit C
+P100772,3/12/2024,9:30,General Medicine,Dr. Jason Lee,General Practitioner,3/12/2024 9:30,3/12/2024 9:04,20,22,0,completed,normal,Unit B
+P100773,1/10/2024,12:00,General Medicine,Dr. Irene Martinez,General Practitioner,1/10/2024 12:00,1/10/2024 11:57,11,28,0,completed,urgent,Unit C
+P100774,11/25/2024,9:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,11/25/2024 9:15,11/25/2024 9:06,12,17,0,completed,normal,Unit A
+P100775,7/20/2024,14:00,Pediatrics,Dr. Grace Lewis,Pediatrician,7/20/2024 14:00,7/20/2024 14:02,30,23,0,cancelled,normal,Unit B
+P100776,1/2/2024,12:45,General Medicine,Dr. Jason Lee,General Practitioner,1/2/2024 12:45,1/2/2024 12:49,13,18,0,completed,normal,Unit B
+P100777,8/1/2024,9:30,Cardiology,Dr. Bob Johnson,Cardiologist,8/1/2024 9:30,8/1/2024 9:05,22,22,0,completed,normal,Unit A
+P100778,11/1/2024,14:00,Neurology,Dr. Carol Lee,Neurologist,11/1/2024 14:00,11/1/2024 14:10,32,11,0,cancelled,normal,Unit B
+P100779,6/12/2024,9:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,6/12/2024 9:15,6/12/2024 9:06,28,18,0,completed,normal,Unit C
+P100780,6/14/2024,14:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,6/14/2024 14:45,6/14/2024 14:47,0,20,0,completed,normal,Unit C
+P100781,1/21/2024,10:45,Cardiology,Dr. Bob Johnson,Cardiologist,1/21/2024 10:45,1/21/2024 10:45,11,17,0,completed,normal,Unit C
+P100782,7/9/2024,15:30,General Medicine,Dr. Jason Lee,General Practitioner,7/9/2024 15:30,7/9/2024 15:37,12,22,0,completed,normal,Unit B
+P100783,1/4/2024,12:15,Pediatrics,Dr. Grace Lewis,Pediatrician,1/4/2024 12:15,1/4/2024 12:25,0,18,0,completed,urgent,Unit B
+P100784,12/2/2024,15:15,Pediatrics,Dr. Grace Lewis,Pediatrician,12/2/2024 15:15,12/2/2024 15:12,26,16,0,completed,normal,Unit A
+P100785,4/3/2024,10:15,Oncology,Dr. Emma Clark,Oncologist,4/3/2024 10:15,4/3/2024 9:45,0,20,0,completed,normal,Unit C
+P100786,2/13/2024,12:45,Cardiology,Dr. Alice Smith,Cardiologist,2/13/2024 12:45,2/13/2024 12:38,33,16,0,completed,normal,Unit A
+P100787,4/24/2024,9:15,General Medicine,Dr. Jason Lee,General Practitioner,4/24/2024 9:15,4/24/2024 9:17,29,17,0,completed,normal,Unit A
+P100788,4/23/2024,8:45,General Medicine,Dr. Irene Martinez,General Practitioner,4/23/2024 8:45,4/23/2024 8:41,8,23,0,completed,normal,Unit A
+P100789,1/14/2024,13:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,1/14/2024 13:00,1/14/2024 13:02,10,18,0,completed,normal,Unit C
+P100790,10/16/2024,10:15,Pediatrics,Dr. Grace Lewis,Pediatrician,10/16/2024 10:15,10/16/2024 10:11,23,19,0,completed,normal,Unit A
+P100791,6/18/2024,13:00,General Medicine,Dr. Jason Lee,General Practitioner,6/18/2024 13:00,6/18/2024 12:55,8,25,0,completed,urgent,Unit A
+P100792,5/18/2024,13:45,Oncology,Dr. Emma Clark,Oncologist,5/18/2024 13:45,5/18/2024 13:44,1,21,0,completed,urgent,Unit C
+P100793,9/19/2024,15:30,General Medicine,Dr. Jason Lee,General Practitioner,9/19/2024 15:30,9/19/2024 15:36,4,19,0,completed,normal,Unit A
+P100794,4/14/2024,9:30,Cardiology,Dr. Alice Smith,Cardiologist,4/14/2024 9:30,4/14/2024 9:30,21,23,0,completed,normal,Unit B
+P100795,2/20/2024,9:45,Cardiology,Dr. Alice Smith,Cardiologist,2/20/2024 9:45,2/20/2024 9:33,3,21,0,completed,urgent,Unit A
+P100796,11/17/2024,10:15,Cardiology,Dr. Alice Smith,Cardiologist,11/17/2024 10:15,11/17/2024 10:10,0,15,0,completed,normal,Unit C
+P100797,6/1/2024,8:15,Oncology,Dr. Emma Clark,Oncologist,6/1/2024 8:15,6/1/2024 8:17,15,17,0,completed,normal,Unit C
+P100798,10/24/2024,8:15,Pediatrics,Dr. Henry Patel,Pediatrician,10/24/2024 8:15,10/24/2024 8:15,19,19,0,completed,normal,Unit A
+P100799,5/31/2024,16:15,Pediatrics,Dr. Henry Patel,Pediatrician,5/31/2024 16:15,5/31/2024 16:12,13,12,0,completed,urgent,Unit B
+P100800,11/4/2024,13:15,Pediatrics,Dr. Henry Patel,Pediatrician,11/4/2024 13:15,11/4/2024 13:21,8,16,0,completed,normal,Unit C
+P100801,3/13/2024,10:30,Oncology,Dr. Emma Clark,Oncologist,3/13/2024 10:30,3/13/2024 10:18,19,22,0,completed,normal,Unit C
+P100802,5/27/2024,15:00,Neurology,Dr. Daniel Kim,Neurologist,5/27/2024 15:00,5/27/2024 15:06,5,27,1,no_show,normal,Unit B
+P100803,3/6/2024,14:15,Pediatrics,Dr. Henry Patel,Pediatrician,3/6/2024 14:15,3/6/2024 14:15,29,26,0,completed,normal,Unit A
+P100804,11/23/2024,14:15,General Medicine,Dr. Irene Martinez,General Practitioner,11/23/2024 14:15,11/23/2024 14:04,3,21,0,completed,urgent,Unit C
+P100805,1/17/2024,12:45,General Medicine,Dr. Irene Martinez,General Practitioner,1/17/2024 12:45,1/17/2024 12:54,28,13,0,cancelled,normal,Unit A
+P100806,3/26/2024,16:15,General Medicine,Dr. Jason Lee,General Practitioner,3/26/2024 16:15,3/26/2024 16:08,18,19,0,cancelled,normal,Unit B
+P100807,5/24/2024,10:45,Cardiology,Dr. Bob Johnson,Cardiologist,5/24/2024 10:45,5/24/2024 10:45,14,24,0,cancelled,normal,Unit C
+P100808,6/11/2024,11:45,Cardiology,Dr. Alice Smith,Cardiologist,6/11/2024 11:45,6/11/2024 11:52,15,16,0,cancelled,normal,Unit A
+P100809,10/21/2024,10:30,General Medicine,Dr. Irene Martinez,General Practitioner,10/21/2024 10:30,10/21/2024 10:16,9,13,0,completed,normal,Unit C
+P100810,3/18/2024,9:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,3/18/2024 9:30,3/18/2024 9:23,2,19,0,completed,urgent,Unit B
+P100811,10/31/2024,12:15,Oncology,Dr. Emma Clark,Oncologist,10/31/2024 12:15,10/31/2024 12:22,27,14,0,completed,normal,Unit B
+P100812,12/13/2024,15:00,General Medicine,Dr. Irene Martinez,General Practitioner,12/13/2024 15:00,12/13/2024 14:56,8,23,0,completed,urgent,Unit B
+P100813,10/18/2024,11:00,Neurology,Dr. Daniel Kim,Neurologist,10/18/2024 11:00,10/18/2024 10:45,21,10,0,cancelled,normal,Unit B
+P100814,10/11/2024,14:00,Oncology,Dr. Emma Clark,Oncologist,10/11/2024 14:00,10/11/2024 13:53,14,23,0,completed,normal,Unit B
+P100815,1/30/2024,8:15,Neurology,Dr. Daniel Kim,Neurologist,1/30/2024 8:15,1/30/2024 8:01,22,18,0,completed,normal,Unit C
+P100816,12/24/2024,9:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,12/24/2024 9:00,12/24/2024 8:44,14,23,0,completed,urgent,Unit C
+P100817,8/18/2024,9:45,Neurology,Dr. Daniel Kim,Neurologist,8/18/2024 9:45,8/18/2024 9:36,14,16,0,completed,normal,Unit A
+P100818,7/20/2024,16:45,General Medicine,Dr. Jason Lee,General Practitioner,7/20/2024 16:45,7/20/2024 16:44,35,24,0,completed,urgent,Unit A
+P100819,3/28/2024,13:30,General Medicine,Dr. Jason Lee,General Practitioner,3/28/2024 13:30,3/28/2024 13:31,20,20,1,no_show,normal,Unit B
+P100820,12/20/2024,11:30,Cardiology,Dr. Bob Johnson,Cardiologist,12/20/2024 11:30,12/20/2024 11:16,13,30,0,cancelled,urgent,Unit B
+P100821,9/21/2024,13:45,Cardiology,Dr. Bob Johnson,Cardiologist,9/21/2024 13:45,9/21/2024 13:57,14,11,0,completed,normal,Unit A
+P100822,9/18/2024,11:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,9/18/2024 11:30,9/18/2024 11:31,4,26,0,completed,normal,Unit B
+P100823,9/22/2024,15:00,Cardiology,Dr. Alice Smith,Cardiologist,9/22/2024 15:00,9/22/2024 15:07,10,23,0,cancelled,normal,Unit B
+P100824,10/21/2024,14:00,Oncology,Dr. Emma Clark,Oncologist,10/21/2024 14:00,10/21/2024 14:05,23,12,0,completed,urgent,Unit A
+P100825,12/25/2024,16:15,Cardiology,Dr. Alice Smith,Cardiologist,12/25/2024 16:15,12/25/2024 16:22,0,22,0,completed,urgent,Unit B
+P100826,6/25/2024,9:45,Oncology,Dr. Emma Clark,Oncologist,6/25/2024 9:45,6/25/2024 9:47,21,21,0,completed,normal,Unit A
+P100827,7/14/2024,14:30,General Medicine,Dr. Irene Martinez,General Practitioner,7/14/2024 14:30,7/14/2024 14:31,7,23,0,cancelled,normal,Unit A
+P100828,8/10/2024,16:45,Pediatrics,Dr. Henry Patel,Pediatrician,8/10/2024 16:45,8/10/2024 17:01,23,21,0,completed,normal,Unit A
+P100829,11/5/2024,11:45,Pediatrics,Dr. Grace Lewis,Pediatrician,11/5/2024 11:45,11/5/2024 11:38,7,14,0,completed,normal,Unit C
+P100830,2/22/2024,11:15,Pediatrics,Dr. Grace Lewis,Pediatrician,2/22/2024 11:15,2/22/2024 11:27,75,20,0,completed,normal,Unit C
+P100831,12/8/2024,8:00,Cardiology,Dr. Alice Smith,Cardiologist,12/8/2024 8:00,12/8/2024 8:12,14,27,0,completed,normal,Unit B
+P100832,8/20/2024,11:00,Oncology,Dr. Frank Wright,Oncologist,8/20/2024 11:00,8/20/2024 10:59,29,16,0,completed,urgent,Unit C
+P100833,9/28/2024,10:45,Cardiology,Dr. Bob Johnson,Cardiologist,9/28/2024 10:45,9/28/2024 10:47,24,16,0,completed,normal,Unit B
+P100834,8/26/2024,15:45,Cardiology,Dr. Bob Johnson,Cardiologist,8/26/2024 15:45,8/26/2024 15:37,13,15,0,completed,normal,Unit B
+P100835,2/4/2024,11:15,Oncology,Dr. Emma Clark,Oncologist,2/4/2024 11:15,2/4/2024 11:20,35,25,0,completed,normal,Unit C
+P100836,3/9/2024,8:00,General Medicine,Dr. Irene Martinez,General Practitioner,3/9/2024 8:00,3/9/2024 8:03,14,25,0,completed,normal,Unit A
+P100837,5/31/2024,16:00,General Medicine,Dr. Irene Martinez,General Practitioner,5/31/2024 16:00,5/31/2024 15:59,10,14,0,cancelled,normal,Unit A
+P100838,7/18/2024,11:15,Neurology,Dr. Daniel Kim,Neurologist,7/18/2024 11:15,7/18/2024 11:11,11,18,0,completed,normal,Unit A
+P100839,6/3/2024,11:15,Neurology,Dr. Daniel Kim,Neurologist,6/3/2024 11:15,6/3/2024 11:33,23,22,0,completed,urgent,Unit B
+P100840,7/25/2024,11:30,Neurology,Dr. Daniel Kim,Neurologist,7/25/2024 11:30,7/25/2024 11:32,29,23,0,completed,normal,Unit B
+P100841,11/14/2024,16:45,General Medicine,Dr. Jason Lee,General Practitioner,11/14/2024 16:45,11/14/2024 16:45,20,22,0,completed,normal,Unit C
+P100842,11/11/2024,15:30,Neurology,Dr. Daniel Kim,Neurologist,11/11/2024 15:30,11/11/2024 15:42,16,23,0,completed,urgent,Unit C
+P100843,3/6/2024,11:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,3/6/2024 11:00,3/6/2024 11:05,3,15,0,completed,normal,Unit A
+P100844,7/25/2024,16:30,Pediatrics,Dr. Grace Lewis,Pediatrician,7/25/2024 16:30,7/25/2024 16:31,21,21,0,completed,normal,Unit B
+P100845,5/29/2024,16:00,Oncology,Dr. Frank Wright,Oncologist,5/29/2024 16:00,5/29/2024 16:01,3,22,0,completed,normal,Unit A
+P100846,4/18/2024,8:15,Pediatrics,Dr. Henry Patel,Pediatrician,4/18/2024 8:15,4/18/2024 8:04,29,17,0,completed,urgent,Unit C
+P100847,7/17/2024,13:30,Neurology,Dr. Daniel Kim,Neurologist,7/17/2024 13:30,7/17/2024 13:23,23,12,0,completed,normal,Unit B
+P100848,9/8/2024,12:45,Cardiology,Dr. Bob Johnson,Cardiologist,9/8/2024 12:45,9/8/2024 12:34,16,22,0,completed,normal,Unit B
+P100849,1/22/2024,10:45,Oncology,Dr. Emma Clark,Oncologist,1/22/2024 10:45,1/22/2024 10:42,24,22,0,completed,urgent,Unit C
+P100850,4/17/2024,15:00,General Medicine,Dr. Irene Martinez,General Practitioner,4/17/2024 15:00,4/17/2024 15:07,9,19,0,completed,normal,Unit C
+P100851,1/19/2024,13:15,Cardiology,Dr. Bob Johnson,Cardiologist,1/19/2024 13:15,1/19/2024 13:13,13,26,0,completed,normal,Unit A
+P100852,3/30/2024,16:30,Pediatrics,Dr. Grace Lewis,Pediatrician,3/30/2024 16:30,3/30/2024 16:36,10,14,0,completed,urgent,Unit C
+P100853,12/30/2024,12:00,Neurology,Dr. Carol Lee,Neurologist,12/30/2024 12:00,12/30/2024 11:36,50,23,0,completed,normal,Unit A
+P100854,12/13/2024,14:30,Neurology,Dr. Daniel Kim,Neurologist,12/13/2024 14:30,12/13/2024 14:28,23,24,0,completed,normal,Unit A
+P100855,9/28/2024,9:00,Neurology,Dr. Daniel Kim,Neurologist,9/28/2024 9:00,9/28/2024 9:11,14,28,0,completed,normal,Unit A
+P100856,12/1/2024,14:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,12/1/2024 14:30,12/1/2024 14:14,25,13,0,completed,normal,Unit B
+P100857,6/21/2024,10:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,6/21/2024 10:45,6/21/2024 11:02,0,30,0,completed,urgent,Unit C
+P100858,10/29/2024,14:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,10/29/2024 14:00,10/29/2024 14:00,13,21,0,completed,normal,Unit C
+P100859,4/12/2024,13:00,Pediatrics,Dr. Grace Lewis,Pediatrician,4/12/2024 13:00,4/12/2024 13:09,0,20,0,completed,normal,Unit A
+P100860,8/4/2024,12:45,Neurology,Dr. Carol Lee,Neurologist,8/4/2024 12:45,8/4/2024 12:48,24,22,0,completed,normal,Unit B
+P100861,8/28/2024,11:00,General Medicine,Dr. Jason Lee,General Practitioner,8/28/2024 11:00,8/28/2024 10:57,11,14,0,completed,normal,Unit B
+P100862,8/26/2024,10:45,Cardiology,Dr. Bob Johnson,Cardiologist,8/26/2024 10:45,8/26/2024 10:46,24,12,0,completed,normal,Unit A
+P100863,11/1/2024,9:45,Oncology,Dr. Frank Wright,Oncologist,11/1/2024 9:45,11/1/2024 9:51,12,19,0,completed,normal,Unit C
+P100864,4/3/2024,11:45,Pediatrics,Dr. Henry Patel,Pediatrician,4/3/2024 11:45,4/3/2024 11:45,26,21,0,completed,normal,Unit C
+P100865,1/5/2024,12:00,General Medicine,Dr. Irene Martinez,General Practitioner,1/5/2024 12:00,1/5/2024 12:03,31,14,0,completed,normal,Unit A
+P100866,5/31/2024,12:00,Cardiology,Dr. Alice Smith,Cardiologist,5/31/2024 12:00,5/31/2024 12:07,32,24,0,completed,normal,Unit B
+P100867,1/14/2024,13:45,Pediatrics,Dr. Grace Lewis,Pediatrician,1/14/2024 13:45,1/14/2024 13:43,26,17,0,completed,normal,Unit B
+P100868,4/17/2024,13:00,Oncology,Dr. Frank Wright,Oncologist,4/17/2024 13:00,4/17/2024 13:07,30,14,0,completed,normal,Unit C
+P100869,10/24/2024,14:30,Neurology,Dr. Daniel Kim,Neurologist,10/24/2024 14:30,10/24/2024 14:32,0,30,0,completed,normal,Unit C
+P100870,3/1/2024,8:00,General Medicine,Dr. Irene Martinez,General Practitioner,3/1/2024 8:00,3/1/2024 8:00,28,18,0,completed,normal,Unit C
+P100871,7/13/2024,9:00,Oncology,Dr. Emma Clark,Oncologist,7/13/2024 9:00,7/13/2024 8:56,13,30,0,completed,normal,Unit A
+P100872,8/8/2024,8:00,Pediatrics,Dr. Grace Lewis,Pediatrician,8/8/2024 8:00,8/8/2024 7:49,17,13,1,no_show,normal,Unit B
+P100873,8/1/2024,8:00,Oncology,Dr. Emma Clark,Oncologist,8/1/2024 8:00,8/1/2024 7:54,25,10,0,completed,urgent,Unit B
+P100874,9/3/2024,11:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,9/3/2024 11:00,9/3/2024 10:56,42,20,0,completed,normal,Unit A
+P100875,10/1/2024,11:00,General Medicine,Dr. Jason Lee,General Practitioner,10/1/2024 11:00,10/1/2024 11:01,22,22,0,completed,normal,Unit C
+P100876,10/11/2024,15:00,General Medicine,Dr. Jason Lee,General Practitioner,10/11/2024 15:00,10/11/2024 15:09,31,18,0,completed,normal,Unit C
+P100877,6/28/2024,9:00,Neurology,Dr. Carol Lee,Neurologist,6/28/2024 9:00,6/28/2024 9:09,29,18,0,completed,normal,Unit B
+P100878,12/1/2024,16:00,Cardiology,Dr. Bob Johnson,Cardiologist,12/1/2024 16:00,12/1/2024 16:02,3,21,0,completed,normal,Unit B
+P100879,2/25/2024,15:15,Pediatrics,Dr. Grace Lewis,Pediatrician,2/25/2024 15:15,2/25/2024 15:05,0,11,0,completed,normal,Unit C
+P100880,1/31/2024,13:15,Neurology,Dr. Daniel Kim,Neurologist,1/31/2024 13:15,1/31/2024 13:04,20,23,0,completed,normal,Unit A
+P100881,8/1/2024,13:15,Oncology,Dr. Emma Clark,Oncologist,8/1/2024 13:15,8/1/2024 13:13,18,20,0,completed,normal,Unit A
+P100882,1/10/2024,15:15,General Medicine,Dr. Irene Martinez,General Practitioner,1/10/2024 15:15,1/10/2024 15:15,29,29,0,cancelled,normal,Unit C
+P100883,7/19/2024,15:00,Pediatrics,Dr. Henry Patel,Pediatrician,7/19/2024 15:00,7/19/2024 14:57,17,19,0,completed,urgent,Unit C
+P100884,7/9/2024,16:30,Cardiology,Dr. Bob Johnson,Cardiologist,7/9/2024 16:30,7/9/2024 16:38,4,17,0,completed,normal,Unit A
+P100885,4/12/2024,14:45,Pediatrics,Dr. Henry Patel,Pediatrician,4/12/2024 14:45,4/12/2024 14:55,11,21,0,completed,normal,Unit A
+P100886,3/22/2024,13:45,General Medicine,Dr. Jason Lee,General Practitioner,3/22/2024 13:45,3/22/2024 13:27,26,19,0,completed,normal,Unit C
+P100887,1/5/2024,16:45,Neurology,Dr. Daniel Kim,Neurologist,1/5/2024 16:45,1/5/2024 16:33,3,14,0,completed,normal,Unit A
+P100888,11/2/2024,11:15,Oncology,Dr. Emma Clark,Oncologist,11/2/2024 11:15,11/2/2024 11:21,30,20,0,completed,normal,Unit B
+P100889,1/18/2024,14:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,1/18/2024 14:30,1/18/2024 14:18,43,19,1,no_show,normal,Unit A
+P100890,9/15/2024,8:15,General Medicine,Dr. Irene Martinez,General Practitioner,9/15/2024 8:15,9/15/2024 8:17,18,27,0,completed,normal,Unit B
+P100891,7/26/2024,10:30,Pediatrics,Dr. Grace Lewis,Pediatrician,7/26/2024 10:30,7/26/2024 10:35,6,19,0,completed,urgent,Unit A
+P100892,11/28/2024,11:00,General Medicine,Dr. Irene Martinez,General Practitioner,11/28/2024 11:00,11/28/2024 10:47,2,20,0,completed,normal,Unit C
+P100893,9/14/2024,12:45,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,9/14/2024 12:45,9/14/2024 12:40,2,26,1,no_show,normal,Unit A
+P100894,8/13/2024,12:15,General Medicine,Dr. Irene Martinez,General Practitioner,8/13/2024 12:15,8/13/2024 12:29,21,31,0,completed,urgent,Unit C
+P100895,6/20/2024,16:45,Pediatrics,Dr. Henry Patel,Pediatrician,6/20/2024 16:45,6/20/2024 16:48,3,20,1,no_show,normal,Unit A
+P100896,6/30/2024,14:45,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,6/30/2024 14:45,6/30/2024 14:59,12,22,0,completed,urgent,Unit A
+P100897,9/20/2024,11:00,General Medicine,Dr. Irene Martinez,General Practitioner,9/20/2024 11:00,9/20/2024 11:03,20,11,0,completed,normal,Unit C
+P100898,2/25/2024,9:45,Pediatrics,Dr. Grace Lewis,Pediatrician,2/25/2024 9:45,2/25/2024 9:57,12,27,0,completed,normal,Unit B
+P100899,10/4/2024,8:00,Cardiology,Dr. Alice Smith,Cardiologist,10/4/2024 8:00,10/4/2024 8:01,11,18,0,completed,normal,Unit A
+P100900,12/22/2024,14:30,Oncology,Dr. Frank Wright,Oncologist,12/22/2024 14:30,12/22/2024 14:19,24,20,0,completed,normal,Unit A
+P100901,10/27/2024,16:00,Cardiology,Dr. Alice Smith,Cardiologist,10/27/2024 16:00,10/27/2024 16:16,1,12,0,completed,normal,Unit C
+P100902,10/16/2024,14:45,Pediatrics,Dr. Grace Lewis,Pediatrician,10/16/2024 14:45,10/16/2024 14:56,26,24,0,completed,normal,Unit A
+P100903,2/25/2024,15:00,Neurology,Dr. Daniel Kim,Neurologist,2/25/2024 15:00,2/25/2024 14:58,20,17,0,cancelled,normal,Unit B
+P100904,3/14/2024,12:00,General Medicine,Dr. Jason Lee,General Practitioner,3/14/2024 12:00,3/14/2024 11:48,17,24,0,completed,urgent,Unit C
+P100905,2/3/2024,10:30,Neurology,Dr. Carol Lee,Neurologist,2/3/2024 10:30,2/3/2024 10:36,0,12,0,completed,normal,Unit C
+P100906,1/2/2024,8:15,Cardiology,Dr. Alice Smith,Cardiologist,1/2/2024 8:15,1/2/2024 8:11,0,10,0,cancelled,normal,Unit A
+P100907,5/13/2024,16:30,Neurology,Dr. Daniel Kim,Neurologist,5/13/2024 16:30,5/13/2024 16:06,20,26,0,completed,normal,Unit B
+P100908,5/14/2024,13:15,Neurology,Dr. Carol Lee,Neurologist,5/14/2024 13:15,5/14/2024 13:24,14,28,0,completed,normal,Unit B
+P100909,7/25/2024,9:15,Neurology,Dr. Daniel Kim,Neurologist,7/25/2024 9:15,7/25/2024 9:23,10,27,0,completed,normal,Unit C
+P100910,1/6/2024,8:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,1/6/2024 8:30,1/6/2024 8:17,11,18,0,completed,normal,Unit A
+P100911,10/27/2024,13:45,Cardiology,Dr. Alice Smith,Cardiologist,10/27/2024 13:45,10/27/2024 13:44,14,17,0,completed,normal,Unit B
+P100912,12/9/2024,14:15,Pediatrics,Dr. Henry Patel,Pediatrician,12/9/2024 14:15,12/9/2024 14:23,38,16,0,completed,normal,Unit A
+P100913,5/27/2024,15:00,Cardiology,Dr. Alice Smith,Cardiologist,5/27/2024 15:00,5/27/2024 15:09,0,11,0,completed,normal,Unit A
+P100914,6/21/2024,16:30,Cardiology,Dr. Bob Johnson,Cardiologist,6/21/2024 16:30,6/21/2024 16:35,22,15,0,completed,normal,Unit A
+P100915,5/30/2024,14:00,Cardiology,Dr. Alice Smith,Cardiologist,5/30/2024 14:00,5/30/2024 14:00,13,17,0,completed,normal,Unit B
+P100916,12/25/2024,14:15,Pediatrics,Dr. Grace Lewis,Pediatrician,12/25/2024 14:15,12/25/2024 13:59,37,14,0,completed,urgent,Unit A
+P100917,1/18/2024,16:30,General Medicine,Dr. Irene Martinez,General Practitioner,1/18/2024 16:30,1/18/2024 16:08,12,26,0,completed,normal,Unit B
+P100918,3/18/2024,11:45,Oncology,Dr. Emma Clark,Oncologist,3/18/2024 11:45,3/18/2024 11:25,34,14,1,no_show,normal,Unit B
+P100919,12/17/2024,16:00,Oncology,Dr. Frank Wright,Oncologist,12/17/2024 16:00,12/17/2024 16:10,12,22,0,completed,urgent,Unit B
+P100920,2/16/2024,16:15,Neurology,Dr. Daniel Kim,Neurologist,2/16/2024 16:15,2/16/2024 16:31,17,10,0,completed,normal,Unit C
+P100921,3/20/2024,9:15,General Medicine,Dr. Irene Martinez,General Practitioner,3/20/2024 9:15,3/20/2024 9:27,9,15,0,completed,normal,Unit B
+P100922,10/10/2024,15:45,Cardiology,Dr. Alice Smith,Cardiologist,10/10/2024 15:45,10/10/2024 15:53,0,27,0,completed,normal,Unit B
+P100923,10/17/2024,14:45,Cardiology,Dr. Alice Smith,Cardiologist,10/17/2024 14:45,10/17/2024 15:12,26,7,0,completed,normal,Unit C
+P100924,12/23/2024,15:45,Oncology,Dr. Emma Clark,Oncologist,12/23/2024 15:45,12/23/2024 15:44,11,17,0,completed,urgent,Unit C
+P100925,3/30/2024,10:15,General Medicine,Dr. Irene Martinez,General Practitioner,3/30/2024 10:15,3/30/2024 10:05,22,22,0,completed,normal,Unit B
+P100926,3/9/2024,13:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,3/9/2024 13:15,3/9/2024 13:22,46,27,0,completed,normal,Unit B
+P100927,3/12/2024,9:15,Neurology,Dr. Daniel Kim,Neurologist,3/12/2024 9:15,3/12/2024 9:15,14,37,0,completed,urgent,Unit B
+P100928,3/3/2024,14:00,Oncology,Dr. Emma Clark,Oncologist,3/3/2024 14:00,3/3/2024 14:04,15,16,0,cancelled,normal,Unit B
+P100929,1/7/2024,8:30,General Medicine,Dr. Jason Lee,General Practitioner,1/7/2024 8:30,1/7/2024 8:24,26,28,0,completed,normal,Unit C
+P100930,3/10/2024,8:30,Neurology,Dr. Carol Lee,Neurologist,3/10/2024 8:30,3/10/2024 8:25,11,17,0,completed,normal,Unit C
+P100931,7/13/2024,11:45,Neurology,Dr. Carol Lee,Neurologist,7/13/2024 11:45,7/13/2024 11:42,24,17,0,completed,normal,Unit A
+P100932,10/12/2024,12:30,Oncology,Dr. Emma Clark,Oncologist,10/12/2024 12:30,10/12/2024 12:25,2,25,0,completed,normal,Unit C
+P100933,3/20/2024,16:15,General Medicine,Dr. Irene Martinez,General Practitioner,3/20/2024 16:15,3/20/2024 16:07,19,13,0,completed,normal,Unit C
+P100934,9/29/2024,12:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,9/29/2024 12:15,9/29/2024 12:24,9,5,0,completed,normal,Unit B
+P100935,6/2/2024,11:45,Cardiology,Dr. Bob Johnson,Cardiologist,6/2/2024 11:45,6/2/2024 11:35,25,20,0,completed,normal,Unit B
+P100936,1/1/2024,11:15,Cardiology,Dr. Bob Johnson,Cardiologist,1/1/2024 11:15,1/1/2024 11:05,19,19,0,completed,normal,Unit C
+P100937,10/11/2024,16:00,Neurology,Dr. Carol Lee,Neurologist,10/11/2024 16:00,10/11/2024 16:10,22,15,0,completed,normal,Unit B
+P100938,5/24/2024,14:15,Cardiology,Dr. Alice Smith,Cardiologist,5/24/2024 14:15,5/24/2024 14:19,24,28,0,cancelled,normal,Unit C
+P100939,7/21/2024,16:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,7/21/2024 16:00,7/21/2024 16:16,21,18,0,cancelled,normal,Unit A
+P100940,11/12/2024,15:15,General Medicine,Dr. Jason Lee,General Practitioner,11/12/2024 15:15,11/12/2024 15:38,18,26,0,completed,normal,Unit C
+P100941,5/6/2024,13:45,Neurology,Dr. Daniel Kim,Neurologist,5/6/2024 13:45,5/6/2024 13:38,8,17,0,completed,normal,Unit C
+P100942,10/3/2024,12:30,Neurology,Dr. Daniel Kim,Neurologist,10/3/2024 12:30,10/3/2024 12:12,16,28,0,cancelled,urgent,Unit A
+P100943,10/20/2024,11:15,General Medicine,Dr. Jason Lee,General Practitioner,10/20/2024 11:15,10/20/2024 11:12,43,19,0,completed,normal,Unit C
+P100944,7/18/2024,9:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,7/18/2024 9:00,7/18/2024 9:08,28,30,0,completed,normal,Unit B
+P100945,11/25/2024,10:30,Neurology,Dr. Daniel Kim,Neurologist,11/25/2024 10:30,11/25/2024 10:32,6,16,0,completed,normal,Unit C
+P100946,2/22/2024,12:30,Oncology,Dr. Emma Clark,Oncologist,2/22/2024 12:30,2/22/2024 12:49,0,20,0,completed,normal,Unit B
+P100947,8/4/2024,9:00,Cardiology,Dr. Alice Smith,Cardiologist,8/4/2024 9:00,8/4/2024 8:42,25,18,0,completed,urgent,Unit A
+P100948,12/29/2024,9:45,Neurology,Dr. Carol Lee,Neurologist,12/29/2024 9:45,12/29/2024 9:51,23,14,1,no_show,normal,Unit B
+P100949,4/15/2024,16:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,4/15/2024 16:30,4/15/2024 16:30,31,32,0,cancelled,normal,Unit B
+P100950,12/22/2024,10:45,Pediatrics,Dr. Henry Patel,Pediatrician,12/22/2024 10:45,12/22/2024 10:44,7,18,0,completed,normal,Unit B
+P100951,2/24/2024,9:45,General Medicine,Dr. Irene Martinez,General Practitioner,2/24/2024 9:45,2/24/2024 9:32,21,27,0,completed,normal,Unit A
+P100952,11/10/2024,13:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,11/10/2024 13:15,11/10/2024 13:16,0,14,0,completed,normal,Unit B
+P100953,7/11/2024,16:45,Oncology,Dr. Emma Clark,Oncologist,7/11/2024 16:45,7/11/2024 16:36,19,17,0,completed,normal,Unit C
+P100954,12/5/2024,13:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,12/5/2024 13:00,12/5/2024 12:52,6,24,0,cancelled,normal,Unit B
+P100955,10/31/2024,11:15,Cardiology,Dr. Bob Johnson,Cardiologist,10/31/2024 11:15,10/31/2024 10:57,1,31,0,completed,normal,Unit C
+P100956,1/15/2024,10:15,Cardiology,Dr. Bob Johnson,Cardiologist,1/15/2024 10:15,1/15/2024 10:07,17,24,0,completed,normal,Unit C
+P100957,1/26/2024,8:30,Pediatrics,Dr. Grace Lewis,Pediatrician,1/26/2024 8:30,1/26/2024 8:31,14,18,0,completed,normal,Unit B
+P100958,12/29/2024,13:15,General Medicine,Dr. Jason Lee,General Practitioner,12/29/2024 13:15,12/29/2024 13:19,15,15,0,completed,normal,Unit A
+P100959,2/2/2024,12:30,General Medicine,Dr. Irene Martinez,General Practitioner,2/2/2024 12:30,2/2/2024 12:25,58,10,0,completed,normal,Unit A
+P100960,5/3/2024,15:00,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,5/3/2024 15:00,5/3/2024 14:59,13,24,0,cancelled,normal,Unit A
+P100961,3/17/2024,12:00,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,3/17/2024 12:00,3/17/2024 12:08,28,21,0,completed,normal,Unit A
+P100962,7/26/2024,16:15,General Medicine,Dr. Irene Martinez,General Practitioner,7/26/2024 16:15,7/26/2024 16:12,43,25,0,completed,normal,Unit B
+P100963,2/25/2024,11:00,Neurology,Dr. Carol Lee,Neurologist,2/25/2024 11:00,2/25/2024 11:16,9,17,0,cancelled,normal,Unit A
+P100964,2/24/2024,14:45,General Medicine,Dr. Jason Lee,General Practitioner,2/24/2024 14:45,2/24/2024 14:30,6,17,0,completed,normal,Unit A
+P100965,4/25/2024,8:45,Neurology,Dr. Daniel Kim,Neurologist,4/25/2024 8:45,4/25/2024 8:55,23,16,0,completed,normal,Unit B
+P100966,10/7/2024,12:30,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,10/7/2024 12:30,10/7/2024 12:30,5,16,0,completed,normal,Unit B
+P100967,6/9/2024,15:00,Cardiology,Dr. Bob Johnson,Cardiologist,6/9/2024 15:00,6/9/2024 14:53,6,25,0,completed,normal,Unit B
+P100968,11/8/2024,14:15,Pediatrics,Dr. Grace Lewis,Pediatrician,11/8/2024 14:15,11/8/2024 14:20,9,16,0,completed,normal,Unit C
+P100969,2/29/2024,13:00,Pediatrics,Dr. Grace Lewis,Pediatrician,2/29/2024 13:00,2/29/2024 13:06,15,18,0,completed,normal,Unit C
+P100970,6/20/2024,15:30,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,6/20/2024 15:30,6/20/2024 15:48,14,16,0,completed,normal,Unit C
+P100971,11/5/2024,12:00,Oncology,Dr. Emma Clark,Oncologist,11/5/2024 12:00,11/5/2024 11:58,3,33,0,completed,normal,Unit B
+P100972,6/3/2024,14:30,Neurology,Dr. Carol Lee,Neurologist,6/3/2024 14:30,6/3/2024 14:35,8,22,0,completed,normal,Unit C
+P100973,3/28/2024,10:30,Pediatrics,Dr. Grace Lewis,Pediatrician,3/28/2024 10:30,3/28/2024 10:36,13,25,0,completed,normal,Unit A
+P100974,1/24/2024,10:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,1/24/2024 10:15,1/24/2024 10:24,13,20,0,completed,normal,Unit A
+P100975,8/22/2024,8:15,Pediatrics,Dr. Henry Patel,Pediatrician,8/22/2024 8:15,8/22/2024 7:47,22,20,0,completed,normal,Unit A
+P100976,3/29/2024,13:45,Cardiology,Dr. Bob Johnson,Cardiologist,3/29/2024 13:45,3/29/2024 13:54,20,21,0,completed,normal,Unit C
+P100977,12/23/2024,14:00,Pediatrics,Dr. Grace Lewis,Pediatrician,12/23/2024 14:00,12/23/2024 13:59,44,23,0,completed,normal,Unit B
+P100978,12/21/2024,10:45,Cardiology,Dr. Bob Johnson,Cardiologist,12/21/2024 10:45,12/21/2024 10:40,26,12,0,completed,normal,Unit B
+P100979,5/29/2024,9:00,Neurology,Dr. Carol Lee,Neurologist,5/29/2024 9:00,5/29/2024 8:56,21,19,0,completed,normal,Unit B
+P100980,6/9/2024,9:30,Cardiology,Dr. Bob Johnson,Cardiologist,6/9/2024 9:30,6/9/2024 9:18,13,14,1,no_show,normal,Unit B
+P100981,3/18/2024,13:45,Pediatrics,Dr. Grace Lewis,Pediatrician,3/18/2024 13:45,3/18/2024 13:41,33,23,0,completed,normal,Unit A
+P100982,3/12/2024,15:30,Neurology,Dr. Carol Lee,Neurologist,3/12/2024 15:30,3/12/2024 15:15,22,25,0,completed,normal,Unit C
+P100983,5/4/2024,9:00,Oncology,Dr. Frank Wright,Oncologist,5/4/2024 9:00,5/4/2024 9:00,12,28,0,completed,normal,Unit A
+P100984,6/19/2024,8:45,Neurology,Dr. Carol Lee,Neurologist,6/19/2024 8:45,6/19/2024 8:46,25,26,0,completed,normal,Unit C
+P100985,5/31/2024,12:00,Pediatrics,Dr. Grace Lewis,Pediatrician,5/31/2024 12:00,5/31/2024 12:15,37,23,0,completed,normal,Unit C
+P100986,6/25/2024,11:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,6/25/2024 11:15,6/25/2024 11:19,20,6,0,completed,normal,Unit B
+P100987,3/30/2024,13:15,Orthopedics,Dr. Liam Young,Orthopedic Surgeon,3/30/2024 13:15,3/30/2024 13:15,28,16,0,completed,normal,Unit B
+P100988,4/23/2024,15:15,Pediatrics,Dr. Grace Lewis,Pediatrician,4/23/2024 15:15,4/23/2024 15:10,10,24,0,completed,normal,Unit A
+P100989,9/2/2024,15:30,Cardiology,Dr. Bob Johnson,Cardiologist,9/2/2024 15:30,9/2/2024 15:46,32,21,0,completed,urgent,Unit A
+P100990,7/25/2024,14:45,Neurology,Dr. Daniel Kim,Neurologist,7/25/2024 14:45,7/25/2024 14:42,37,21,0,completed,normal,Unit A
+P100991,12/16/2024,15:15,Pediatrics,Dr. Henry Patel,Pediatrician,12/16/2024 15:15,12/16/2024 15:21,27,12,0,completed,normal,Unit C
+P100992,12/30/2024,15:30,Cardiology,Dr. Bob Johnson,Cardiologist,12/30/2024 15:30,12/30/2024 15:17,31,20,0,completed,normal,Unit A
+P100993,4/16/2024,11:15,Oncology,Dr. Frank Wright,Oncologist,4/16/2024 11:15,4/16/2024 11:12,37,25,1,no_show,normal,Unit A
+P100994,9/23/2024,13:30,Cardiology,Dr. Bob Johnson,Cardiologist,9/23/2024 13:30,9/23/2024 13:39,19,17,0,completed,urgent,Unit A
+P100995,2/18/2024,10:00,Cardiology,Dr. Alice Smith,Cardiologist,2/18/2024 10:00,2/18/2024 9:58,9,12,0,completed,normal,Unit A
+P100996,9/30/2024,15:30,Neurology,Dr. Carol Lee,Neurologist,9/30/2024 15:30,9/30/2024 15:30,20,27,0,completed,normal,Unit A
+P100997,3/11/2024,14:00,Pediatrics,Dr. Grace Lewis,Pediatrician,3/11/2024 14:00,3/11/2024 14:12,3,16,0,cancelled,normal,Unit A
+P100998,1/29/2024,11:30,Pediatrics,Dr. Grace Lewis,Pediatrician,1/29/2024 11:30,1/29/2024 11:26,14,29,0,completed,normal,Unit B
+P100999,7/7/2024,14:15,Orthopedics,Dr. Karen Walker,Orthopedic Surgeon,7/7/2024 14:15,7/7/2024 14:07,20,19,0,completed,normal,Unit C
