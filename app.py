@@ -538,14 +538,11 @@ def main() -> None:
         page_icon="🏥",
         layout="wide",
     )
-    st.title("AI‑Driven Hospital Workflow Optimization")
+    st.title("AI-Driven Hospital Workflow Optimization")
 
-    # Load data
     df = load_data()
-    # Train models
     models = train_models(df)
 
-    # Sidebar navigation
     pages = {
         "Home": display_home,
         "Book Appointment": display_booking,
@@ -554,12 +551,11 @@ def main() -> None:
         "AI Insights": display_ai_insights,
         "Admin Recommendations": display_recommendations,
     }
-    choice = st.sidebar.radio("Navigation", list(pages.keys()))
 
-    # Call selected page function
-    if choice in pages:
-        pages[choice](df if choice != "Book Appointment" else df, models)
+    choice = st.sidebar.radio("Navigation", list(pages.keys()))
+    pages[choice](df, models)
 
 
 if __name__ == "__main__":
     main()
+
